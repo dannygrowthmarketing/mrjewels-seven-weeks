@@ -1,0 +1,1519 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Seven Weeks at MR Jewels</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💎</text></svg>">
+<meta property="og:title" content="Seven Weeks at MR Jewels">
+<meta property="og:description" content="Google Ads engagement close — what was inherited, built, found, got wrong and handed over.">
+<meta name="theme-color" content="#0e0c14">
+<meta name="description" content="MR Jewels — Google Ads engagement close. What was inherited, built, found, got wrong and handed over. Bengaluru, Aug–Sep 2026.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#0e0c14; --panel:#16131f; --panel-2:#1e1a2a; --line:#2a2538; --line-2:#3b354b;
+  --ink:#f3f0f7; --ink-2:#ada6ba; --ink-3:#7f788c;
+  --gold:#b9a6ff; --gold-2:#5f5299; --gold-dim:#1d1832;
+  --c1:#4aa3d9; --c2:#e0913a; --c3:#3fbf8a; --c4:#d57ab6;
+  --good:#3fbf8a; --good-bg:#10271f; --warn:#e6b04a; --warn-bg:#2a2112;
+  --bad:#ef6b6b; --bad-bg:#2c1419;
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --sans:"Instrument Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--bg)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{margin:0;font-weight:600;letter-spacing:-.015em;text-wrap:balance}
+p{margin:0}
+b,strong{font-weight:600;color:var(--ink)}
+.mono,svg text{font-family:var(--mono);font-variant-numeric:tabular-nums lining-nums}
+code{font-family:var(--mono);font-size:.86em;color:var(--ink-2);overflow-wrap:anywhere}
+a{color:var(--gold);text-decoration:none}
+:focus-visible{outline:1.5px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:28px}
+
+.mast{border-bottom:1px solid var(--line);padding-top:26px}
+.mast-rule{display:flex;align-items:center;justify-content:space-between;gap:10px 16px;flex-wrap:wrap;font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-3);padding-bottom:20px;border-bottom:1px solid var(--line)}
+.mast-rule .brandline{color:var(--gold);font-weight:600}
+.hero{padding:56px 0 42px;text-align:center}
+.issue{font-family:var(--mono);font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:20px}
+h1{font-family:var(--serif);font-size:clamp(48px,8.4vw,98px);line-height:.96;font-weight:400;font-variation-settings:"opsz" 144;letter-spacing:-.02em}
+h1 em{font-style:italic;color:var(--gold)}
+.standfirst{max-width:680px;margin:24px auto 0;font-size:16.5px;line-height:1.62;color:var(--ink-2)}
+.standfirst b{color:var(--ink)}
+.tenure{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 26px;margin-top:26px;font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.tenure b{color:var(--gold);font-weight:500}
+
+.figs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+@media(min-width:720px){.figs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:1000px){.figs{grid-template-columns:repeat(6,minmax(0,1fr))}}
+.fig{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:20px 16px 18px;min-width:0}
+.fig .l{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:9px}
+.fig .v{font-family:var(--serif);font-size:31px;line-height:1;font-weight:600;letter-spacing:-.02em;white-space:nowrap}
+.fig .v small{font-size:.55em}
+.fig .d{font-size:11.5px;color:var(--ink-3);margin-top:7px;line-height:1.35}
+.fig.au .v{color:var(--gold)} .fig.al .v{color:var(--bad)} .fig.up .v{color:var(--good)}
+
+.sec{padding:70px 0 8px;scroll-margin-top:50px}
+.shead{display:flex;align-items:flex-end;gap:18px;border-bottom:1px solid var(--gold-2);padding-bottom:12px;margin-bottom:14px}
+.snum{font-family:var(--serif);font-size:44px;line-height:.8;color:var(--gold);font-weight:600;flex:none}
+.shead h2{font-family:var(--serif);font-size:27px;line-height:1.05;font-weight:500;flex:1;min-width:0}
+.shead .stag{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap;padding-bottom:4px}
+.dek{font-size:16px;line-height:1.6;color:var(--ink-2);max-width:74ch;margin-bottom:26px}
+.dek b{color:var(--ink)}
+.sub-h{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:40px 0 16px;display:flex;align-items:center;gap:12px}
+.sub-h::after{content:"";flex:1;height:1px;background:var(--line)}
+
+.g{display:grid;gap:18px;grid-template-columns:minmax(0,1fr);align-items:start}
+@media(min-width:960px){
+  .g{grid-template-columns:repeat(12,minmax(0,1fr))}
+  .x12{grid-column:span 12}.x8{grid-column:span 8}.x7{grid-column:span 7}
+  .x6{grid-column:span 6}.x5{grid-column:span 5}.x4{grid-column:span 4}.x3{grid-column:span 3}
+}
+.card{background:var(--panel);border:1px solid var(--line);padding:20px 22px;min-width:0}
+.card.gold{background:var(--gold-dim);border-color:var(--gold-2)}
+.ct{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:14px}
+.cb{font-size:14px;line-height:1.6;color:var(--ink-2)}
+.cb b{color:var(--ink)}
+.cb + .cb{margin-top:12px}
+
+.stmt{border-left:2px solid var(--gold);padding:4px 0 4px 24px}
+.stmt .big{font-family:var(--serif);font-size:clamp(42px,6vw,66px);line-height:.95;font-weight:600;letter-spacing:-.025em}
+.stmt .big em{font-style:italic;color:var(--gold)}
+.stmt .big small{font-size:.36em;color:var(--ink-2);font-weight:500;letter-spacing:0}
+.stmt .sub{font-size:15.5px;line-height:1.6;color:var(--ink-2);margin-top:14px;max-width:60ch}
+.stmt .sub b{color:var(--ink)}
+.stmt.alert{border-left-color:var(--bad)} .stmt.alert .big em{color:var(--bad)}
+.stmt.win{border-left-color:var(--good)} .stmt.win .big em{color:var(--good)}
+
+.chart{position:relative;min-width:0}
+svg{display:block;width:100%;height:auto;overflow:visible}
+.gl{stroke:var(--line);stroke-width:1}
+.ax{fill:var(--ink-3);font-size:9.5px}
+.axb{fill:var(--ink-2);font-size:10px}
+.tip{position:absolute;pointer-events:none;background:#f3f0f7;color:#0e0c14;padding:8px 11px;font-family:var(--mono);font-size:11px;line-height:1.5;white-space:nowrap;opacity:0;transition:opacity .1s;z-index:40;box-shadow:0 6px 24px rgba(0,0,0,.6)}
+.lg{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:11.5px;color:var(--ink-2);margin-top:12px;font-family:var(--mono)}
+.lg span{display:inline-flex;align-items:center;gap:7px}
+.lg i{width:11px;height:11px;flex:none}
+.note{font-size:12.5px;line-height:1.55;color:var(--ink-3);margin-top:12px}
+.note b{color:var(--ink-2)}
+
+.led{border-top:1px solid var(--line)}
+.led .r{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 18px;align-items:baseline;padding:11px 0;border-bottom:1px solid var(--line)}
+.led .r.two{grid-template-columns:minmax(0,1fr) auto auto}
+.led .k{font-size:13.5px;color:var(--ink-2);min-width:0}
+.led .k b{color:var(--ink)}
+.led .k .s{display:block;color:var(--ink-3);font-size:12px;margin-top:2px}
+.led .v{font-family:var(--mono);font-size:13.5px;white-space:nowrap;text-align:right}
+.led .v2{font-family:var(--mono);font-size:12px;color:var(--ink-3);white-space:nowrap;text-align:right;min-width:74px}
+.led .r.hi{background:var(--gold-dim);margin:0 -12px;padding:11px 12px}
+.led .r.hi .v{color:var(--gold);font-weight:600}
+.led .r.neg .v{color:var(--bad)}
+.led .r.pos .v{color:var(--good)}
+.led .r.tot{border-bottom:2px solid var(--gold-2)}
+.led .r.tot .k,.led .r.tot .v{font-weight:600;color:var(--ink)}
+
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:560px}
+th{text-align:right;font-family:var(--mono);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);padding:0 12px 9px;border-bottom:1px solid var(--line-2);font-weight:500;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;padding-left:0}
+th:last-child,td:last-child{padding-right:0}
+td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+td:first-child{font-family:var(--sans);white-space:normal;min-width:170px}
+td.l{text-align:left;font-family:var(--sans);white-space:normal}
+tbody tr:hover td{background:var(--panel-2)}
+tr.hi td{color:var(--gold)}
+tr.tot td{font-weight:600;border-top:1px solid var(--gold-2)}
+
+.vb{display:inline-block;font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.13em;padding:3px 8px;border:1px solid;white-space:nowrap}
+.v-scale{color:var(--good);border-color:var(--good);background:var(--good-bg)}
+.v-hold{color:var(--ink-2);border-color:var(--line-2)}
+.v-watch{color:var(--warn);border-color:var(--warn);background:var(--warn-bg)}
+.v-fix{color:var(--bad);border-color:var(--bad);background:var(--bad-bg)}
+.flag{display:inline-block;font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--warn);border:1px solid var(--gold-2);padding:1px 5px;vertical-align:middle}
+
+.act{display:grid;grid-template-columns:52px minmax(0,1fr);gap:0 22px;padding:26px 0;border-bottom:1px solid var(--line)}
+.act:last-child{border-bottom:none}
+.act .n{font-family:var(--serif);font-size:46px;line-height:.8;color:var(--gold);font-weight:600}
+.act.bad .n{color:var(--bad)}
+.act h3{font-size:19px;font-family:var(--serif);font-weight:600;line-height:1.2;margin-bottom:9px}
+.act p{font-size:14.5px;line-height:1.6;color:var(--ink-2)}
+.act p + p{margin-top:8px}
+.act .m{display:flex;flex-wrap:wrap;gap:6px 22px;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-top:14px}
+.act .m b{color:var(--gold)}
+.act.bad .m b{color:var(--bad)}
+
+.pull{font-family:var(--serif);font-size:clamp(20px,2.6vw,27px);line-height:1.32;font-weight:500;color:var(--ink);border-top:1px solid var(--gold-2);border-bottom:1px solid var(--gold-2);padding:26px 0;margin:8px 0;text-wrap:balance}
+.pull em{font-style:italic;color:var(--gold)}
+
+.heat-lg{display:flex;align-items:center;gap:9px;font-family:var(--mono);font-size:10px;color:var(--ink-3);margin-top:12px;flex-wrap:wrap}
+.ramp{display:flex;height:9px;width:120px}
+.ramp i{flex:1}
+
+.toc{border-top:1px solid var(--line);border-bottom:1px solid var(--gold-2);padding:26px 0 22px}
+.toc .tlab{font-family:var(--mono);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+.toc ol{list-style:none;margin:0;padding:0;display:grid;gap:2px 34px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:620px){.toc ol{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1000px){.toc ol{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.toc a{display:flex;align-items:baseline;gap:12px;padding:7px 0;border-bottom:1px solid var(--line);color:var(--ink-2);font-size:13.5px;min-height:36px}
+.toc a:hover{color:var(--gold)}
+.toc a .n{font-family:var(--mono);font-size:10.5px;color:var(--gold);flex:none;width:20px}
+.toc a .t{flex:1;min-width:0}
+
+#prog{position:fixed;top:0;left:0;height:2px;background:var(--gold);width:0;z-index:90}
+#marker{position:fixed;top:0;left:0;right:0;z-index:80;background:rgba(14,12,20,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);transform:translateY(-100%);transition:transform .22s ease;padding:9px 0;padding-top:calc(9px + env(safe-area-inset-top,0px))}
+#marker.on{transform:translateY(0)}
+#marker .in{max-width:1180px;margin:0 auto;padding-inline:28px;display:flex;align-items:center;gap:12px;font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+#marker .mn{color:var(--gold);font-weight:600}
+#marker .mt{color:var(--ink-2);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#marker a.top{color:var(--ink-3);border:1px solid var(--line-2);padding:3px 9px;flex:none}
+
+footer{margin-top:80px;border-top:1px solid var(--line);padding:28px 0 60px;font-size:11.5px;line-height:1.65;color:var(--ink-3)}
+footer b{color:var(--ink-2)}
+.fgrid{display:grid;gap:24px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:820px){.fgrid{grid-template-columns:2fr 1fr}}
+
+.doclist{columns:2;column-gap:36px}
+.doclist .r{break-inside:avoid;grid-template-columns:minmax(0,1fr) auto!important}
+.doclist .r .v2{display:none}
+@media(max-width:860px){.doclist{columns:1}}
+.related{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.related a{border:1px solid var(--line-2);padding:8px 12px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+.related a:hover{color:var(--gold);border-color:var(--gold-2)}
+.swipe{display:none;font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-top:8px}
+@media(max-width:760px){
+  body{font-size:14.5px}
+  .wrap{padding-inline:16px}
+  .mast{padding-top:16px}
+  .mast-rule{font-size:9px;letter-spacing:.14em;padding-bottom:14px}
+  .mast-rule span:nth-child(3){display:none}
+  .hero{padding:34px 0 26px}
+  .standfirst{font-size:15px}
+  .sec{padding:50px 0 6px}
+  .shead{gap:12px;align-items:baseline;flex-wrap:wrap}
+  .snum{font-size:32px}
+  .shead h2{font-size:21px}
+  .shead .stag{flex-basis:100%;padding-bottom:0;white-space:normal}
+  .dek{font-size:15px;margin-bottom:20px}
+  .card{padding:16px 15px}
+  .fig{padding:15px 13px}
+  .fig .v{font-size:24px}
+  .stmt{padding-left:16px}
+  .stmt .big{font-size:38px}
+  .pull{font-size:19px;padding:20px 0}
+  .chart{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}
+  .chart > svg{min-width:600px}
+  .chart.fit > svg{min-width:0}
+  .swipe{display:block}
+  .led .r.two{grid-template-columns:minmax(0,1fr) auto}
+  .led .r.two .k{grid-column:1/-1}
+  .doclist .r.two .k{grid-column:1}
+  .doclist .r.two .v{grid-column:2;text-align:right}
+  .led .r.two .v{grid-column:1;text-align:left;font-size:13px}
+  .led .r.two .v2{grid-column:2;font-size:11px}
+  .act{grid-template-columns:minmax(0,1fr);gap:8px}
+  .act .n{font-size:34px}
+  #marker .in{padding-inline:16px;font-size:9.5px}
+}
+@media(max-width:420px){.fig .v{font-size:21px}}
+@media print{#prog,#marker,.toc{display:none!important}.tip{display:none!important}}
+</style>
+</head><body>
+<div id="prog"></div>
+<div id="marker"><div class="in"><span class="mn" id="mnum">01</span><span class="mt" id="mtitle"></span><a class="top" href="#top">Top</a></div></div>
+
+<div class="wrap" id="top">
+
+<header class="mast">
+  <div class="mast-rule">
+    <span class="brandline">MR Jewels · Case Study</span>
+    <span>Engagement closed — Bengaluru</span>
+    <span>Google Ads 530-183-4495 · Shopify · Merchant Center 5383672764</span>
+    <span>September 2026</span>
+  </div>
+  <div class="hero">
+    <div class="issue">Performance marketing · Premium imitation jewellery D2C</div>
+    <h1>Seven <em>weeks</em><br>on the account</h1>
+    <p class="standfirst">A two-year-old Google Ads account, <b>₹62.9 lakh spent, 30 campaigns, 80% on Shopping</b>. I took it over on 1 August 2026. Three campaigns launched, a conversion fix that cut store CPC 66%, 24 build documents, and a measurement audit that found <b>₹12.56 crore of value that never existed</b>. This is the full record — the wins, the data, the mistakes, and what was handed over.</p>
+    <div class="tenure"><span>Pitch <b>29 Jul 2026</b></span><span>Live on account <b>1 Aug 2026</b></span><span>Last build <b>3 Sep 2026</b></span><span>Closed <b>Sep 2026</b></span></div>
+  </div>
+</header>
+
+<div class="figs">
+  <div class="fig"><div class="l">Gross sales · Aug</div><div class="v">₹1.07<small> Cr</small></div><div class="d">1,960 orders · +21.8% MoM</div></div>
+  <div class="fig au"><div class="l">Google billed · Aug</div><div class="v">₹10.88<small> L</small></div><div class="d">Largest month ever · +143%</div></div>
+  <div class="fig up"><div class="l">Store CPC after fix</div><div class="v">−66%</div><div class="d">₹38.60 → ₹13.13</div></div>
+  <div class="fig up"><div class="l">Showroom actions · Aug</div><div class="v">1,356</div><div class="d">543 in the 25 months before</div></div>
+  <div class="fig al"><div class="l">Phantom conv. value</div><div class="v">₹12.56<small> Cr</small></div><div class="d">11.8× the company's revenue</div></div>
+  <div class="fig"><div class="l">Documents delivered</div><div class="v">24</div><div class="d">Specs, audits, reports, plans</div></div>
+</div>
+
+<nav class="toc" aria-label="Contents">
+  <div class="tlab">Contents · 15 sections</div>
+  <ol id="toclist"></ol>
+</nav>
+
+<!-- 01 -->
+<section class="sec" id="s01">
+  <div class="shead"><span class="snum">01</span><h2>What I inherited</h2><span class="stag">9 Jul 2024 – 31 Jul 2026</span></div>
+  <p class="dek">Run by a previous team for 25 months before me. None of the history below is my work — it is the starting line.</p>
+
+  <div class="figs" style="margin-bottom:26px">
+    <div class="fig"><div class="l">All-time spend</div><div class="v">₹62.9<small> L</small></div><div class="d">30 campaigns</div></div>
+    <div class="fig"><div class="l">Conversions</div><div class="v">7,020</div><div class="d">CPA ₹896</div></div>
+    <div class="fig"><div class="l">Purchases</div><div class="v">5,028</div><div class="d">AOV ₹5,609</div></div>
+    <div class="fig au"><div class="l">PMax return</div><div class="v">24.3×</div><div class="d">On 8.1% of budget</div></div>
+    <div class="fig al"><div class="l">Shopping share</div><div class="v">80.9%</div><div class="d">CPA ₹1,146</div></div>
+    <div class="fig al"><div class="l">Search share</div><div class="v">1.0%</div><div class="d">CPA ₹73 — cheapest</div></div>
+  </div>
+
+  <div class="g">
+    <div class="card x7">
+      <div class="ct">Share of spend against share of conversions · all time</div>
+      <div class="chart"><svg id="c-type" viewBox="0 0 660 230" role="img" aria-label="Spend share versus conversion share by campaign type"></svg><div class="tip" id="t-type"></div></div>
+      <div class="lg"><span><i style="background:var(--c2)"></i>Share of spend</span><span><i style="background:var(--c3)"></i>Share of conversions</span></div>
+      <p class="note">Shopping took four rupees in five and returned under two-thirds of the conversions. Search and PMax did the opposite on 9% of the money.</p>
+    </div>
+    <div class="x5">
+      <div class="stmt">
+        <div class="big">₹1,146 <small>vs</small> <em>₹73</em></div>
+        <p class="sub">Shopping CPA against Search CPA. <b>15.6× the cost on 80× the budget.</b> The money sat on interruption, not captured intent.</p>
+      </div>
+      <div class="led" style="margin-top:24px">
+        <div class="r two"><span class="k">Shopping</span><span class="v">₹50,87,326</span><span class="v2">₹1,146 CPA</span></div>
+        <div class="r two"><span class="k">Demand Gen</span><span class="v">₹6,30,049</span><span class="v2">₹1,588 CPA</span></div>
+        <div class="r two"><span class="k">Performance Max</span><span class="v">₹5,09,053</span><span class="v2">₹386 CPA</span></div>
+        <div class="r two"><span class="k">Search</span><span class="v">₹63,348</span><span class="v2">₹73 CPA</span></div>
+        <div class="r two tot"><span class="k">Account</span><span class="v">₹62,89,776</span><span class="v2">₹896 CPA</span></div>
+      </div>
+    </div>
+
+    <div class="card x6">
+      <div class="ct">The business around the ad account · trailing 12 months to Jul 2026</div>
+      <div class="led">
+        <div class="r two"><span class="k">Revenue, net of returns</span><span class="v">₹9.21 Cr</span><span class="v2">+190.6% YoY</span></div>
+        <div class="r two"><span class="k">Orders</span><span class="v">20,850</span><span class="v2">57 a day</span></div>
+        <div class="r two"><span class="k">Total ad spend</span><span class="v">₹2.44 Cr</span><span class="v2">+152.9%</span></div>
+        <div class="r two"><span class="k">— Meta</span><span class="v">₹1.91 Cr</span><span class="v2">78.4%</span></div>
+        <div class="r two"><span class="k">— Google</span><span class="v">₹52.6 L</span><span class="v2">21.6%</span></div>
+        <div class="r two hi"><span class="k"><b>Blended MER</b></span><span class="v">3.78×</span><span class="v2">July 2.68×</span></div>
+        <div class="r two"><span class="k">CAC</span><span class="v">₹1,168</span><span class="v2">Q2 ₹1,304</span></div>
+        <div class="r two neg"><span class="k">Return rate</span><span class="v">18.9%</span><span class="v2">₹2.22 Cr</span></div>
+      </div>
+      <p class="note">Google was the smaller channel. Every Google decision below sits inside a business that is 78% Meta.</p>
+    </div>
+
+    <div class="card x6">
+      <div class="ct">Inherited defects · found in the first 17 days</div>
+      <div class="led">
+        <div class="r"><span class="k"><b>Lead form primary on 13 of 30 campaigns</b><span class="s">1,992 conversions (28%) were not purchases</span></span><span class="v"><span class="vb v-fix">CRIT</span></span></div>
+        <div class="r"><span class="k"><b>Search impression share &lt;10%</b> across 26 months<span class="s">Auction insights never populated</span></span><span class="v"><span class="vb v-watch">HIGH</span></span></div>
+        <div class="r"><span class="k"><b>1,042 dead terms ≥₹300</b><span class="s">₹6,33,931 with zero conversions</span></span><span class="v"><span class="vb v-watch">HIGH</span></span></div>
+        <div class="r"><span class="k"><b><code>{ignore}</code> ValueTrack in a live URL</b><span class="s">₹32,289 of untraceable clicks</span></span><span class="v"><span class="vb v-hold">MED</span></span></div>
+        <div class="r"><span class="k"><b>UAE and Angola leakage</b><span class="s">₹3,86,549 UAE · ₹11,772 Angola at ₹34.83 CPC</span></span><span class="v"><span class="vb v-hold">MED</span></span></div>
+        <div class="r"><span class="k"><b>Showroom on 0.22% of budget</b><span class="s">Directions at ₹32.57 each</span></span><span class="v"><span class="vb v-scale">OPPORTUNITY</span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 -->
+<section class="sec" id="s02">
+  <div class="shead"><span class="snum">02</span><h2>Seven weeks, as worked</h2><span class="stag">29 Jul – 3 Sep 2026</span></div>
+  <p class="dek">Pitch to last build in 37 days. Three campaigns live, eleven asset and ad groups written, twenty-four documents shipped.</p>
+
+  <div class="g">
+    <div class="card x12">
+      <div class="ct">Engagement timeline · hover for detail</div>
+      <div class="chart"><svg id="c-time" viewBox="0 0 1140 170" role="img" aria-label="Timeline of the engagement"></svg><div class="tip" id="t-time"></div></div>
+      <div class="lg"><span><i style="background:var(--c3)"></i>Launched</span><span><i style="background:var(--c1)"></i>Changed</span><span><i style="background:var(--gold)"></i>Delivered</span><span><i style="background:var(--bad)"></i>Incident</span></div>
+    </div>
+
+    <div class="x12">
+      <div class="figs">
+        <div class="fig up"><div class="l">Campaigns launched</div><div class="v">3</div><div class="d">PMax Store · Brand Search · C04 remarketing</div></div>
+        <div class="fig"><div class="l">Asset groups written</div><div class="v">10</div><div class="d">3 store · 2 remarketing · 5 Volume Core</div></div>
+        <div class="fig"><div class="l">Ad groups built</div><div class="v">5</div><div class="d">Brand AG01–AG05</div></div>
+        <div class="fig"><div class="l">Headlines written</div><div class="v">120+</div><div class="d">75 in Volume Core alone</div></div>
+        <div class="fig au"><div class="l">Search terms read</div><div class="v">13.7<small> L</small></div><div class="d">8.6 L all-time + 5.05 L Aug</div></div>
+        <div class="fig"><div class="l">Reports published</div><div class="v">2</div><div class="d">Case study + August report</div></div>
+      </div>
+    </div>
+
+    <div class="card x12">
+      <div class="ct">Every document delivered · 24</div>
+      <div class="led doclist"><div class="r two"><span class="k"><b>All-time Google Ads review + data tables</b><span class="s">17 Aug · Audit · 32 tables</span></span><span class="v"><span class="vb v-scale">PUBLISHED</span></span><span class="v2">17 Aug</span></div><div class="r two"><span class="k"><b>Search layer restructure</b><span class="s">17 Aug · Strategy</span></span><span class="v"><span class="vb v-hold">DELIVERED</span></span><span class="v2">17 Aug</span></div><div class="r two"><span class="k"><b>AG04 Brand Exact + Misspellings build spec</b><span class="s">17 Aug · Build sheet</span></span><span class="v"><span class="vb v-scale">LIVE</span></span><span class="v2">17 Aug</span></div><div class="r two"><span class="k"><b>Stage 3 non-brand Search campaign</b><span class="s">20 Aug · Build sheet</span></span><span class="v"><span class="vb v-watch">NOT BUILT</span></span><span class="v2">20 Aug</span></div><div class="r two"><span class="k"><b>Blended business review · 24 months Shopify + Meta + Google</b><span class="s">21 Aug · Review</span></span><span class="v"><span class="vb v-hold">DELIVERED</span></span><span class="v2">21 Aug</span></div><div class="r two"><span class="k"><b>PMax AG02 Bridal &amp; Trousseau build spec</b><span class="s">21 Aug · Build sheet</span></span><span class="v"><span class="vb v-scale">LIVE</span></span><span class="v2">21 Aug</span></div><div class="r two"><span class="k"><b>AG05 Competitor build spec</b><span class="s">24 Aug · Build sheet</span></span><span class="v"><span class="vb v-watch">NOT BUILT</span></span><span class="v2">24 Aug</span></div><div class="r two"><span class="k"><b>PMax Store negative keywords</b><span class="s">24 Aug · Build sheet</span></span><span class="v"><span class="vb v-hold">DELIVERED</span></span><span class="v2">24 Aug</span></div><div class="r two"><span class="k"><b>PMax AG03 Festive &amp; Gifting build spec</b><span class="s">25 Aug · Build sheet</span></span><span class="v"><span class="vb v-scale">LIVE</span></span><span class="v2">25 Aug</span></div><div class="r two"><span class="k"><b>Account change log</b><span class="s">25 Aug · Ops</span></span><span class="v"><span class="vb v-hold">DELIVERED</span></span><span class="v2">25 Aug</span></div><div class="r two"><span class="k"><b>Budget vs delivery, Aug 1–26</b><span class="s">26 Aug · Audit</span></span><span class="v"><span class="vb v-hold">DELIVERED</span></span><span class="v2">26 Aug</span></div><div class="r two"><span class="k"><b>Account command dashboard · HTML + 10-page PDF</b><span class="s">27 Aug · Dashboard</span></span><span class="v"><span class="vb v-hold">DELIVERED</span></span><span class="v2">27 Aug</span></div><div class="r two"><span class="k"><b>Notion daily ops hub · 4 databases</b><span class="s">27 Aug · Ops</span></span><span class="v"><span class="vb v-hold">DELIVERED</span></span><span class="v2">27 Aug</span></div><div class="r two"><span class="k"><b>Call tracking build spec · Exotel split architecture</b><span class="s">28 Aug · Build sheet</span></span><span class="v"><span class="vb v-watch">NOT BUILT</span></span><span class="v2">28 Aug</span></div><div class="r two"><span class="k"><b>Road to 100 orders a day</b><span class="s">28 Aug · Plan</span></span><span class="v"><span class="vb v-hold">DELIVERED</span></span><span class="v2">28 Aug</span></div><div class="r two"><span class="k"><b>Stage 4 remarketing build spec</b><span class="s">28 Aug · Build sheet</span></span><span class="v"><span class="vb v-scale">LIVE</span></span><span class="v2">28 Aug</span></div><div class="r two"><span class="k"><b>C04 build walkthrough</b><span class="s">28 Aug · Build sheet</span></span><span class="v"><span class="vb v-scale">LIVE</span></span><span class="v2">28 Aug</span></div><div class="r two"><span class="k"><b>C04 AG02 Cart 8–30d build spec</b><span class="s">31 Aug · Build sheet</span></span><span class="v"><span class="vb v-hold">DELIVERED</span></span><span class="v2">31 Aug</span></div><div class="r two"><span class="k"><b>Stage 4 scale plan · 50 orders a day</b><span class="s">31 Aug · Plan</span></span><span class="v"><span class="vb v-hold">DELIVERED</span></span><span class="v2">31 Aug</span></div><div class="r two"><span class="k"><b>Stage 4 campaign structure</b><span class="s">31 Aug · Plan</span></span><span class="v"><span class="vb v-hold">DELIVERED</span></span><span class="v2">31 Aug</span></div><div class="r two"><span class="k"><b>The August Report · 16 sections, 22 charts</b><span class="s">1 Sep · Report</span></span><span class="v"><span class="vb v-scale">PUBLISHED</span></span><span class="v2">1 Sep</span></div><div class="r two"><span class="k"><b>Tracking repair spec + account state correction</b><span class="s">2 Sep · Audit</span></span><span class="v"><span class="vb v-watch">HANDED OVER</span></span><span class="v2">2 Sep</span></div><div class="r two"><span class="k"><b>Stage 5 PMax Core Movers build spec</b><span class="s">2 Sep · Build sheet</span></span><span class="v"><span class="vb v-watch">NOT BUILT</span></span><span class="v2">2 Sep</span></div><div class="r two"><span class="k"><b>Volume Core asset group copy · 5 groups</b><span class="s">3 Sep · Build sheet</span></span><span class="v"><span class="vb v-watch">NOT BUILT</span></span><span class="v2">3 Sep</span></div></div>
+      <p class="note">"Not built" means specced and handed over but not published before close. Execution after 3 September is not recorded here.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 03 -->
+<section class="sec" id="s03">
+  <div class="shead"><span class="snum">03</span><h2>The month</h2><span class="stag">August 2026 · sales and marketing</span></div>
+  <p class="dek">The only full month on the account. The store grew. The account grew four times faster.</p>
+
+  <div class="g">
+    <div class="card x6">
+      <div class="ct">Sales — Shopify</div>
+      <div class="led">
+        <div class="r two"><span class="k">Gross sales</span><span class="v">₹1,06,84,206</span><span class="v2">+21.8%</span></div>
+        <div class="r two neg"><span class="k">Discounts</span><span class="v">−₹5,31,024</span><span class="v2">5.0%</span></div>
+        <div class="r two neg"><span class="k">Sales reversals <span class="flag">derived</span></span><span class="v">−₹21,16,120</span><span class="v2">19.8%</span></div>
+        <div class="r two hi"><span class="k"><b>Net revenue</b></span><span class="v">₹80,21,935</span><span class="v2">75.1%</span></div>
+        <div class="r two"><span class="k">Orders</span><span class="v">1,960</span><span class="v2">+16.1%</span></div>
+        <div class="r two"><span class="k">Average order value</span><span class="v">₹5,180</span><span class="v2">+4.9%</span></div>
+        <div class="r two"><span class="k">Sessions</span><span class="v">4,20,817</span><span class="v2">+53.3%</span></div>
+        <div class="r two neg"><span class="k">Conversion rate</span><span class="v">0.466%</span><span class="v2">−24.2%</span></div>
+      </div>
+    </div>
+    <div class="card x6">
+      <div class="ct">Marketing — Google Ads</div>
+      <div class="led">
+        <div class="r two"><span class="k">Media cost <span style="color:var(--ink-3)">ex-GST</span></span><span class="v">₹9,25,231</span><span class="v2">—</span></div>
+        <div class="r two hi"><span class="k"><b>Net cost billed</b></span><span class="v">₹10,87,899</span><span class="v2">+143.3%</span></div>
+        <div class="r two"><span class="k">Impressions</span><span class="v">1,15,59,854</span><span class="v2">—</span></div>
+        <div class="r two"><span class="k">Clicks</span><span class="v">1,78,878</span><span class="v2">CTR 1.57%</span></div>
+        <div class="r two"><span class="k">Average CPC</span><span class="v">₹5.07</span><span class="v2">₹3.77–9.52</span></div>
+        <div class="r two"><span class="k">Conversions <span style="color:var(--ink-3)">all</span></span><span class="v">2,859.62</span><span class="v2">inflated</span></div>
+        <div class="r two"><span class="k">Conversions <span style="color:var(--ink-3)">clean, 5–31 Aug</span></span><span class="v">408.57</span><span class="v2">₹1,867 CPA</span></div>
+        <div class="r two neg"><span class="k">Available funds, 1 Sep</span><span class="v">₹18,571</span><span class="v2">½ day</span></div>
+      </div>
+    </div>
+
+    <div class="x12"><div class="pull">Google spend rose <em>143%</em>. Gross sales rose <em>21.8%</em>. Every rupee added in August bought roughly a fifth of what the rupee before it bought.</div></div>
+
+    <div class="card x12">
+      <div class="ct">Daily spend · the shape of the month</div>
+      <div class="chart"><svg id="c-daily" viewBox="0 0 1140 190" role="img" aria-label="Daily ad spend across August 2026"></svg><div class="tip" id="t-daily"></div></div>
+      <div class="lg"><span><i style="background:var(--c1)"></i>Daily spend</span><span><i style="background:var(--bad)"></i>10 Aug · funds exhausted</span></div>
+      <p class="note"><b>₹14,900/day to 9 August.</b> ₹533 on the 10th when the balance ran dry — about ₹32,000 of delivery lost. Then <b>₹33,000–40,000/day</b> to month end. Balance exhausted again on the 31st.</p>
+    </div>
+
+    <div class="card x7">
+      <div class="ct">Campaign league · August</div>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Campaign</th><th>Spend</th><th>Conv.</th><th>CPA</th><th>Call</th></tr></thead>
+          <tbody>
+            <tr><td>S_Tofu_18july <span style="color:var(--ink-3);font-size:11px">Shopping</span></td><td>₹4,49,901</td><td>235.36</td><td>₹1,912</td><td><span class="vb v-hold">HOLD</span></td></tr>
+            <tr><td>Stand_14Jan <span style="color:var(--ink-3);font-size:11px">Shopping</span></td><td>₹2,60,342</td><td>1,231.55</td><td>₹211</td><td><span class="vb v-fix">FIX</span></td></tr>
+            <tr><td>Demand Gen_15jan</td><td>₹60,982</td><td>35.00</td><td>₹1,742</td><td><span class="vb v-watch">WATCH</span></td></tr>
+            <tr class="hi"><td>Search | Brand | Bangalore <span style="font-size:11px">· mine</span></td><td>₹57,249</td><td>23.77</td><td>₹2,408</td><td><span class="vb v-fix">CUT</span></td></tr>
+            <tr><td>Sales_PMax_CatchAll</td><td>₹38,806</td><td>120.96</td><td>₹321</td><td><span class="vb v-fix">FIX</span></td></tr>
+            <tr class="hi"><td>PMax | Store | Bangalore <span style="font-size:11px">· mine</span></td><td>₹27,025</td><td>961.97</td><td>₹28</td><td><span class="vb v-scale">SCALE</span></td></tr>
+            <tr class="hi"><td>Demand Gen | Remarketing <span style="font-size:11px">· mine</span></td><td>₹9,999</td><td>0.00</td><td>—</td><td><span class="vb v-watch">WATCH</span></td></tr>
+            <tr><td>Brand_3june</td><td>₹3,093</td><td>84.98</td><td>₹36</td><td><span class="vb v-scale">SCALE</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Channel split: Shopping ₹7,10,243 · PMax ₹81,602 · Demand Gen ₹73,050 · Search ₹60,336. PMax Store conversions are local actions, not sales.</p>
+    </div>
+    <div class="card x5">
+      <div class="ct">CPA against spend · bubble = conversions</div>
+      <div class="chart fit"><svg id="c-bub" viewBox="0 0 480 330" role="img" aria-label="Campaign spend against cost per acquisition"></svg><div class="tip" id="t-bub"></div></div>
+      <p class="note">Dashed = conversion data defective (Section 07).</p>
+    </div>
+  </div>
+</section>
+
+<!-- 04 -->
+<section class="sec" id="s04">
+  <div class="shead"><span class="snum">04</span><h2>The fix that paid</h2><span class="stag">PMax Store · Indiranagar showroom</span></div>
+  <p class="dek">The first campaign I launched read zero for 17 days. The problem was not the campaign. It was which conversion Google was told to chase.</p>
+
+  <div class="g">
+    <div class="x5">
+      <div class="stmt win">
+        <div class="big"><em>−66%</em> <small>CPC</small></div>
+        <p class="sub">No local action was set to Primary, so Smart Bidding ran blind and bought anonymous clicks at <b>₹38.60</b>. One goal change on 21–25 Aug. CPC fell to <b>₹13.13</b>, and to <b>₹10.13</b> across 18–25 Aug.</p>
+      </div>
+      <div class="led" style="margin-top:24px">
+        <div class="r two"><span class="k">Clicks</span><span class="v">122 → 1,241</span><span class="v2" style="color:var(--good)">×10.2</span></div>
+        <div class="r two"><span class="k">Impressions</span><span class="v">17,651 → 51,623</span><span class="v2">×2.9</span></div>
+        <div class="r two"><span class="k">CTR</span><span class="v">0.69% → 2.40%</span><span class="v2" style="color:var(--good)">×3.5</span></div>
+        <div class="r two"><span class="k">Average CPC</span><span class="v">₹38.60 → ₹13.13</span><span class="v2" style="color:var(--good)">−66%</span></div>
+        <div class="r two"><span class="k">Conversions</span><span class="v">0 → 425.97</span><span class="v2">—</span></div>
+        <div class="r two hi"><span class="k"><b>Cost per local action</b></span><span class="v">₹38.24</span><span class="v2">Aug 1–25</span></div>
+      </div>
+      <p class="note">Aug 1–17 against Aug 1–25, asset group Store &amp; Showroom 01. The highest-value single edit made to the account in the engagement.</p>
+    </div>
+    <div class="card x7">
+      <div class="ct">Before and after · indexed to before = 100</div>
+      <div class="chart"><svg id="c-fix" viewBox="0 0 660 250" role="img" aria-label="Store campaign metrics before and after the conversion goal fix"></svg><div class="tip" id="t-fix"></div></div>
+      <div class="lg"><span><i style="background:var(--ink-3)"></i>Aug 1–17</span><span><i style="background:var(--c3)"></i>Aug 1–25</span><span><i style="background:var(--c3);opacity:.55"></i>Aug 18–25 only</span></div>
+      <p class="note">Bars show change on the right scale: CTR and clicks up, CPC down. <b>34.06% conversion rate describes local actions</b> — directions, calls, visits — never ₹38 per sale.</p>
+    </div>
+
+    <div class="card x4">
+      <div class="ct">Showroom output · August</div>
+      <div class="stmt" style="padding-left:18px"><div class="big" style="font-size:52px">1,356</div><p class="sub" style="font-size:13.5px">local actions on <b>₹27,025</b> — 3% of budget.</p></div>
+      <div class="led" style="margin-top:18px">
+        <div class="r two"><span class="k">Driving directions</span><span class="v">1,153</span><span class="v2">₹23.44 each</span></div>
+        <div class="r two"><span class="k">Call taps</span><span class="v">145</span><span class="v2">unmeasured</span></div>
+        <div class="r two"><span class="k">Store visits <span class="flag">modelled</span></span><span class="v">58</span><span class="v2">floor</span></div>
+      </div>
+    </div>
+    <div class="card x4">
+      <div class="ct">Against the 25 months before</div>
+      <div class="led">
+        <div class="r two"><span class="k">Local actions</span><span class="v">543 → 1,356</span><span class="v2">×2.5</span></div>
+        <div class="r two"><span class="k">Driving directions</span><span class="v">434 → 1,153</span><span class="v2">×2.7</span></div>
+        <div class="r two pos"><span class="k">Cost per direction</span><span class="v">₹32.57 → ₹23.44</span><span class="v2">−28%</span></div>
+        <div class="r two"><span class="k">Local spend</span><span class="v">₹14,137 → ₹27,025</span><span class="v2">lifetime → 1 mo</span></div>
+        <div class="r two"><span class="k">Local share of budget</span><span class="v">0.22% → 2.9%</span><span class="v2">—</span></div>
+      </div>
+      <p class="note">One month produced 2.5× the local actions of the account's whole prior life.</p>
+    </div>
+    <div class="card x4">
+      <div class="ct">Asset groups I wrote · August</div>
+      <div class="led">
+        <div class="r two"><span class="k"><b>Store &amp; Showroom 01</b> <span class="vb v-scale">EXCELLENT</span><span class="s">15 headlines · 50 themes · 20 images</span></span><span class="v">₹22,891</span><span class="v2">₹29 CPA</span></div>
+        <div class="r two"><span class="k"><b>Bridal &amp; Trousseau 02</b> <span class="vb v-scale">EXCELLENT</span><span class="s">25 search themes</span></span><span class="v">₹1,915</span><span class="v2">₹27 CPA</span></div>
+        <div class="r two"><span class="k"><b>Festive &amp; Gifting 03</b><span class="s">24 seasonal themes</span></span><span class="v">₹2,220</span><span class="v2">₹20 CPA</span></div>
+        <div class="r two neg"><span class="k">Inherited Catch All + Open<span class="s">Ad strength Average</span></span><span class="v">₹38,806</span><span class="v2">₹287–367</span></div>
+      </div>
+      <p class="note">All three new groups landed at <b>₹20–29</b>. The inherited groups ran 10× higher.</p>
+    </div>
+
+    <div class="x12"><div class="pull">Local intent took <em>4.3%</em> of August search spend and returned <em>25%</em> of the conversions — at ₹56 against ₹413 everywhere else. PMax Store wasted 22% of its search spend; the rest of the account wasted 86–94%.</div></div>
+  </div>
+</section>
+
+<!-- 05 -->
+<section class="sec" id="s05">
+  <div class="shead"><span class="snum">05</span><h2>The scale test</h2><span class="stag">July → August · ₹6.41 lakh added</span></div>
+  <p class="dek">Strip out every Google conversion number. Use only Shopify revenue and the billing screen. This is the honest read of what the extra money bought.</p>
+
+  <div class="g">
+    <div class="x7">
+      <div class="stmt">
+        <div class="big"><em>2.99×</em> <small>gross</small></div>
+        <p class="sub"><b>₹6,40,702</b> of extra spend bought <b>₹19,14,731</b> of extra gross sales and <b>272</b> extra orders — <b>₹2,356</b> per incremental order. After the 19.8% reversal rate: <b>2.24× net</b>.</p>
+      </div>
+      <div class="led" style="margin-top:26px">
+        <div class="r two"><span class="k">Google billed</span><span class="v">₹4,47,196 → ₹10,87,899</span><span class="v2" style="color:var(--bad)">+143.3%</span></div>
+        <div class="r two"><span class="k">Shopify gross sales</span><span class="v">₹87,69,475 → ₹1,06,84,206</span><span class="v2">+21.8%</span></div>
+        <div class="r two"><span class="k">Orders</span><span class="v">1,688 → 1,960</span><span class="v2">+16.1%</span></div>
+        <div class="r two"><span class="k">Sessions</span><span class="v">2,74,528 → 4,20,817</span><span class="v2">+53.3%</span></div>
+        <div class="r two"><span class="k">AOV</span><span class="v">₹4,938 → ₹5,180</span><span class="v2">+4.9%</span></div>
+        <div class="r two"><span class="k">Conversion rate</span><span class="v">0.615% → 0.466%</span><span class="v2" style="color:var(--bad)">−24.2%</span></div>
+      </div>
+      <p class="note">Sessions up 53%, orders up 16%. The new traffic converted a quarter worse. That is buying wider, not better.</p>
+    </div>
+    <div class="card x5">
+      <div class="ct">Two methods, no shared inputs</div>
+      <div class="chart fit"><svg id="c-agree" viewBox="0 0 460 200" role="img" aria-label="Independent ROAS estimates"></svg><div class="tip" id="t-agree"></div></div>
+      <p class="cb" style="margin-top:14px">Google's clean-period data: <b>2.73×</b>. Shopify incremental: <b>2.99×</b>. Within 10% of each other with nothing in common.</p>
+      <div class="led" style="margin-top:16px">
+        <div class="r two"><span class="k">Break-even margin · incremental net</span><span class="v">44.6%</span><span class="v2">2.24×</span></div>
+        <div class="r two"><span class="k">Break-even margin · incremental gross</span><span class="v">33.4%</span><span class="v2">2.99×</span></div>
+        <div class="r two"><span class="k">Break-even margin · clean Google</span><span class="v">36.7%</span><span class="v2">2.73×</span></div>
+      </div>
+      <p class="note"><b>Above ~45% gross margin the scale-up paid.</b> Below 33% it lost money. COGS was never supplied.</p>
+    </div>
+  </div>
+</section>
+<!-- 06 -->
+<section class="sec" id="s06">
+  <div class="shead"><span class="snum">06</span><h2>The two years behind it</h2><span class="stag">Aug 2024 – Aug 2026 · blended</span></div>
+  <p class="dek">Revenue tripled in a year. Efficiency fell every quarter while it did. My seven weeks sit at the far right of every chart below.</p>
+
+  <div class="g">
+    <div class="card x12">
+      <div class="ct">Monthly revenue against total ad spend · Meta + Google</div>
+      <div class="chart"><svg id="c-blend" viewBox="0 0 1140 260" role="img" aria-label="Monthly revenue and ad spend by channel over 24 months"></svg><div class="tip" id="t-blend"></div></div>
+      <div class="lg"><span><i style="background:var(--gold)"></i>Revenue, net of returns</span><span><i style="background:var(--c4)"></i>Meta spend</span><span><i style="background:var(--c1)"></i>Google spend</span></div>
+      <p class="note">July 2026 estimated from 17 days on the within-month revenue curve, not linear. Meta spend for August 2026 was never supplied, so August does not appear here.</p>
+    </div>
+
+    <div class="card x7">
+      <div class="ct">Blended MER by month · revenue ÷ all ad spend</div>
+      <div class="chart"><svg id="c-bmer" viewBox="0 0 660 220" role="img" aria-label="Blended marketing efficiency ratio by month"></svg><div class="tip" id="t-bmer"></div></div>
+      <p class="note">Dashed line: the <b>3.50× guard rail</b> I set on 21 Aug. The Stage 3 doc used "hold below 15.0" — Shopify revenue over Google spend only, a trigger that could never fire. Corrected in four documents.</p>
+    </div>
+    <div class="x5">
+      <div class="stmt alert">
+        <div class="big"><em>2.68×</em></div>
+        <p class="sub">July 2026, restated — <b>the worst month in two years</b>, the month before I started.</p>
+      </div>
+      <div class="led" style="margin-top:22px">
+        <div class="r two"><span class="k">Q3 2025</span><span class="v">4.51×</span><span class="v2">CAC ₹951</span></div>
+        <div class="r two"><span class="k">Q4 2025</span><span class="v">3.95×</span><span class="v2">CAC ₹1,056</span></div>
+        <div class="r two"><span class="k">Q1 2026</span><span class="v">3.92×</span><span class="v2">CAC ₹1,161</span></div>
+        <div class="r two neg"><span class="k">Q2 2026 · first contraction</span><span class="v">3.63×</span><span class="v2">CAC ₹1,304</span></div>
+      </div>
+      <p class="note">Google share and MER correlate weakly: months with Google ≥20% of spend averaged 4.01×, the rest 3.60×. <b>r = 0.28</b> — a reason to test, not a proof.</p>
+    </div>
+
+    <div class="card x7">
+      <div class="ct">Shopify gross sales against Google billed · 12 months</div>
+      <div class="chart"><svg id="c-year" viewBox="0 0 660 230" role="img" aria-label="Monthly gross sales and Google billed spend"></svg><div class="tip" id="t-year"></div></div>
+      <div class="lg"><span><i style="background:var(--c1)"></i>Gross sales</span><span><i style="background:var(--c2)"></i>Google billed</span></div>
+      <p class="note">Gross peaked at <b>₹1.22 Cr in Feb 2026</b>. August's ₹1.07 Cr is second-best — on more than double February's Google spend.</p>
+    </div>
+    <div class="card x5">
+      <div class="ct">Google-only MER · sales ÷ Google billed</div>
+      <div class="chart fit"><svg id="c-mer" viewBox="0 0 460 220" role="img" aria-label="Google-only efficiency ratio by month"></svg><div class="tip" id="t-mer"></div></div>
+      <p class="note">August at <b>9.82×</b> is the floor of the year, against a 19.0× average.</p>
+    </div>
+
+    <div class="card x12">
+      <div class="ct">Google billed by month · 26 months</div>
+      <div class="chart"><svg id="c-bill" viewBox="0 0 1140 210" role="img" aria-label="Monthly Google billed cost July 2024 to August 2026"></svg><div class="tip" id="t-bill"></div></div>
+      <p class="note">From <b>₹1,214</b> in July 2024 to <b>₹10.88 L</b> in August 2026. Trailing twelve months ₹71.22 L against ₹8.18 L before — 8.7×. August alone exceeds the account's first fifteen months combined. Still funded by manual ₹15,000 netbanking top-ups.</p>
+    </div>
+
+    <div class="card x12">
+      <div class="ct">Findings from the 24-month review that changed decisions</div>
+      <div class="g">
+        <div class="x4"><div class="led">
+          <div class="r"><span class="k"><b>The cart, not the traffic</b><span class="s">Session→cart improved 5.28% → 5.45%. Cart→order collapsed 16.8% → 13.5%. 85 of 100 cart-adds never buy.</span></span><span class="v">₹3.3 Cr/yr</span></div>
+          <div class="r"><span class="k"><b>Only AOV is working</b><span class="s">₹3,773 → ₹4,415 while sessions fell 37% from peak. Nobody knew why.</span></span><span class="v">+17%</span></div>
+        </div></div>
+        <div class="x4"><div class="led">
+          <div class="r"><span class="k"><b>Platforms over-claim 27%</b><span class="s">Meta ₹8.63 Cr + Google ₹2.19 Cr claimed against ₹8.55 Cr actual Shopify.</span></span><span class="v">₹2.28 Cr</span></div>
+          <div class="r"><span class="k"><b>Returns post in a batch</b><span class="s">17 negative days, all between the 18th and 31st. Days 1–17 carry 66.1% of a month's net revenue.</span></span><span class="v">−₹92.1 L</span></div>
+        </div></div>
+        <div class="x4"><div class="led">
+          <div class="r"><span class="k"><b>Dhanteras does not register</b><span class="s">2025 Dhanteras ₹2.84 L vs an October median day of ₹2.58 L. The real peak is Nov–Feb weddings.</span></span><span class="v">+10%</span></div>
+          <div class="r"><span class="k"><b>Stated budget ≠ spend</b><span class="s">Brief said ₹30 L/month. Meta + Google measured ₹20.3 L. If ₹10 L runs elsewhere, true CAC is ₹1,700+.</span></span><span class="v">₹20.3 L</span></div>
+        </div></div>
+      </div>
+    </div>
+
+    <div class="card x12">
+      <div class="ct">The full blended series</div>
+      <div class="tw"><table id="tbl-blend"><thead><tr><th>Month</th><th>Revenue</th><th>Orders</th><th>Return %</th><th>Meta</th><th>Google</th><th>Google %</th><th>MER</th><th>CAC</th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 -->
+<section class="sec" id="s07">
+  <div class="shead"><span class="snum">07</span><h2>What the numbers were hiding</h2><span class="stag">Conversion tracking</span></div>
+  <p class="dek">Google reported ₹12.56 crore of conversion value in August. The whole company — every channel — took ₹1.07 crore. Most of the engagement's analysis went into finding out which numbers could be trusted.</p>
+
+  <div class="g">
+    <div class="x5">
+      <div class="stmt alert">
+        <div class="big"><em>11.8×</em></div>
+        <p class="sub">Google claimed 11.8 times the company's revenue. <code>Stand_14Jan</code> booked <b>₹12.33 Cr between 1 and 4 August</b> — 99.7% of its month — on ₹53,896 of spend.</p>
+      </div>
+      <div class="g" style="margin-top:22px;gap:12px">
+        <div class="card"><div class="ct">As reported · full month</div><div class="led"><div class="r"><span class="k">₹8.41 L spend · ₹12.56 Cr value</span><span class="v" style="color:var(--bad)">149×</span></div></div></div>
+        <div class="card"><div class="ct">1–4 August only</div><div class="led"><div class="r"><span class="k">₹78,896 spend · ₹12.35 Cr value</span><span class="v" style="color:var(--bad)">1,565×</span></div></div></div>
+        <div class="card gold"><div class="ct" style="color:var(--gold)">5–31 August · usable</div><div class="led"><div class="r"><span class="k">₹7.63 L · ₹20.79 L · ₹1,867 CPA</span><span class="v" style="color:var(--gold)">2.73×</span></div></div></div>
+      </div>
+    </div>
+    <div class="card x7">
+      <div class="ct">Daily conversion value · four days hold 98.3%</div>
+      <div class="chart"><svg id="c-val" viewBox="0 0 660 200" role="img" aria-label="Daily conversion value in August"></svg><div class="tip" id="t-val"></div></div>
+      <div class="lg"><span><i style="background:var(--bad)"></i>1–4 Aug · disputed</span><span><i style="background:var(--c1)"></i>5–31 Aug · credible</span></div>
+      <div class="chart" style="margin-top:22px"><svg id="c-stack" viewBox="0 0 660 230" role="img" aria-label="Daily conversions by campaign"></svg><div class="tip" id="t-stack"></div></div>
+      <div class="lg" id="lg-stack"></div>
+      <p class="note">Strip those four days and the account converts at <b>about 13 a day</b> across five campaigns. That is the real run rate.</p>
+    </div>
+
+    <div class="card x12">
+      <div class="ct">The 2 September tracking repair · three real defects, one false alarm</div>
+      <div class="g">
+        <div class="x6">
+          <div class="led">
+            <div class="r two"><span class="k"><b>False alarm — "33 lifetime add-to-carts"</b><span class="s">Read off goal-summary cards, which count primary actions only. Real volume below.</span></span><span class="v" style="color:var(--good)">26,737</span><span class="v2">firing</span></div>
+            <div class="r two"><span class="k"><b>D1 · Add-to-cart value</b><span class="s">App action carries ≥₹10,00,00,00,000 across 26,737 events. GA4 control: ₹5,819 per cart.</span></span><span class="v" style="color:var(--bad)">₹3.74 L</span><span class="v2">per cart</span></div>
+            <div class="r two"><span class="k"><b>D2 · Purchase counted twice</b><span class="s">Shopify app tag + GA4 import. ₹4.74 Cr claimed vs ₹2.98 Cr real.</span></span><span class="v" style="color:var(--bad)">1.6×</span><span class="v2">All conv.</span></div>
+            <div class="r two"><span class="k"><b>D3 · No primary action on two goals</b><span class="s">35% of Sep 1–2 "conversions" were local actions, not sales.</span></span><span class="v" style="color:var(--warn)">35%</span><span class="v2">not sales</span></div>
+          </div>
+        </div>
+        <div class="x6">
+          <div class="led">
+            <div class="r two"><span class="k">Purchase value accuracy<span class="s">Lifetime Google AOV vs store AOV</span></span><span class="v">₹5,545 / ₹5,438</span><span class="v2" style="color:var(--good)">PASS 2%</span></div>
+            <div class="r two"><span class="k">Purchase volume plausibility<span class="s">Google orders as share of 28,575 store orders</span></span><span class="v">5,368 · 18.8%</span><span class="v2" style="color:var(--good)">PASS</span></div>
+            <div class="r two"><span class="k">gclid survives landing<span class="s">Home + two collections tested</span></span><span class="v">no stripping</span><span class="v2" style="color:var(--good)">PASS</span></div>
+            <div class="r two"><span class="k">Auto-tagging · time zone IST · call reporting</span><span class="v">on · match · on</span><span class="v2" style="color:var(--good)">PASS</span></div>
+          </div>
+          <p class="note"><b>Two traps left alone on purpose.</b> Google's "Fix it" button would promote add-to-cart to primary — a remarketing campaign would then buy abandonment. "Set up a Begin checkout conversion" would add a third GA4 action to a duplication problem.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card x12">
+      <div class="ct">A tracking break nobody logged · tracked checkouts as a share of real orders</div>
+      <div class="chart"><svg id="c-chk" viewBox="0 0 1140 190" role="img" aria-label="Tracked checkout coverage by month"></svg><div class="tip" id="t-chk"></div></div>
+      <p class="note">Coverage fell from <b>41.9% in December to 2.9% in February</b>, sat at 2–4% until May, and reached <b>57.0% in August</b>. Orders barely moved. Every conversion-rate trend between February and May is void, and August's checkout "improvement" cannot be separated from the tracking recovering.</p>
+    </div>
+
+    <div class="card x5">
+      <div class="ct">The funnel Shopify can see · August</div>
+      <div class="chart fit"><svg id="c-fun" viewBox="0 0 460 180" role="img" aria-label="August conversion funnel"></svg><div class="tip" id="t-fun"></div></div>
+      <p class="note">Shopify reports a <b>0.01%</b> conversion rate: it counted 68 checkouts against 1,960 orders, because 96.5% complete in third-party checkouts that emit no events. The true rate is 0.466%.</p>
+    </div>
+    <div class="card x7">
+      <div class="ct">Data-quality register at close</div>
+      <div class="led">
+        <div class="r two"><span class="k">Google conversions &gt; store orders<span class="s">79/day reported vs 51–59 real orders/day, early Aug</span></span><span class="v">1.4×</span><span class="v2">counting</span></div>
+        <div class="r two"><span class="k">Three account cost totals<span class="s">₹9.07 L, ₹9.25 L, ₹10.88 L (ex-GST, media, billed)</span></span><span class="v">3</span><span class="v2">shown, not picked</span></div>
+        <div class="r two"><span class="k">Three top-of-page figures<span class="s">61.82%, 61.89%, 54.53%</span></span><span class="v">3</span><span class="v2">shown, not picked</span></div>
+        <div class="r two"><span class="k">Oct 2025 Meta spend conflict<span class="s">Monthly sheet vs daily tracker</span></span><span class="v">₹55,794</span><span class="v2">unresolved</span></div>
+        <div class="r two"><span class="k">₹32.6 L unexplained<span class="s">Gross − returns exceeds total sales by 2.1% most months</span></span><span class="v">2.1%</span><span class="v2">unnamed</span></div>
+        <div class="r two"><span class="k">Orders with a known source<span class="s">Headless checkout strips the referrer</span></span><span class="v">3.4%</span><span class="v2">708 of 21,015</span></div>
+        <div class="r two"><span class="k">Landing page report cost<span class="s">₹75.49 L vs ₹62.91 L account — Shopping double-rows</span></span><span class="v">+20%</span><span class="v2">relative only</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 -->
+<section class="sec" id="s08">
+  <div class="shead"><span class="snum">08</span><h2>Where the money went</h2><span class="stag">Budget, delivery and the starving campaign</span></div>
+  <p class="dek">The account ran at 74% of its budget cap. The best campaign used 29% of its own. Budget was never the constraint — allocation was.</p>
+
+  <div class="g">
+    <div class="card x7">
+      <div class="ct">Budget cap used · Aug 1–26</div>
+      <div class="chart"><svg id="c-util" viewBox="0 0 660 250" role="img" aria-label="Budget cap utilisation by campaign"></svg><div class="tip" id="t-util"></div></div>
+      <p class="note">Label = cost per conversion. Demand Gen spent 98.5% of its cap for 29 conversions. <code>Sales_PMax_CatchAll</code> used 28.7% at ₹217.</p>
+    </div>
+    <div class="x5">
+      <div class="stmt">
+        <div class="big"><em>₹217</em> <small>vs</small> ₹1,568</div>
+        <p class="sub"><code>Sales_PMax_CatchAll</code> against Shopping. <b>103 conversions, 17.2% of the account, on 3.2% of spend.</b> Shopping took 80.7% of spend for 33.8% of conversions.</p>
+      </div>
+      <div class="led" style="margin-top:22px">
+        <div class="r two"><span class="k">Daily cap, all campaigns</span><span class="v">₹37,600</span><span class="v2">—</span></div>
+        <div class="r two"><span class="k">Actual spend Aug 1–26</span><span class="v">₹7,23,369</span><span class="v2">₹27,822/day</span></div>
+        <div class="r two neg"><span class="k">Unspent cap</span><span class="v">₹2,54,231</span><span class="v2">26.0%</span></div>
+        <div class="r two"><span class="k">Blended cost / conversion</span><span class="v">₹657</span><span class="v2">incl. local</span></div>
+        <div class="r two hi"><span class="k"><b>Excluding local actions</b></span><span class="v">₹1,177</span><span class="v2">comparable</span></div>
+      </div>
+      <p class="note">The client tracker's TOTAL cell read ₹9,77,600 — that was the cap, not spend. Restated, not silently corrected.</p>
+    </div>
+
+    <div class="card x12">
+      <div class="ct">First two days of September · the throttle clears</div>
+      <div class="tw"><table>
+        <thead><tr><th>Campaign</th><th>Type</th><th>Cost</th><th>Conv.</th><th>Value</th><th>ROAS</th><th>Cost/conv</th></tr></thead>
+        <tbody>
+          <tr><td>S_Tofu_18july</td><td class="l">Shopping</td><td>₹18,519</td><td>6.15</td><td>₹40,097</td><td>2.17</td><td>₹3,011</td></tr>
+          <tr><td>Stand_14Jan</td><td class="l">Shopping</td><td>₹16,404</td><td>3.87</td><td>₹18,555</td><td style="color:var(--bad)">1.13</td><td>₹4,243</td></tr>
+          <tr class="hi"><td>Sales_PMax_CatchAll · 96.4% of cap</td><td class="l">PMax</td><td>₹5,759</td><td>4.00</td><td>₹20,335</td><td>3.53</td><td>₹1,440</td></tr>
+          <tr><td>Demand Gen_15jan</td><td class="l">Demand Gen</td><td>₹4,025</td><td>2.00</td><td>₹4,600</td><td>1.14</td><td>₹2,012</td></tr>
+          <tr><td>Search | Brand | Bangalore</td><td class="l">Search</td><td>₹4,020</td><td>1.67</td><td>₹9,505</td><td>2.36</td><td style="color:var(--bad)">₹2,404</td></tr>
+          <tr><td>Demand Gen | Remarketing (C04)</td><td class="l">Demand Gen</td><td>₹3,599</td><td>0.00</td><td>₹0</td><td style="color:var(--bad)">0.00</td><td>—</td></tr>
+          <tr><td>PMax | Store</td><td class="l">PMax</td><td>₹2,406</td><td>9.00 local</td><td>₹0</td><td>—</td><td>—</td></tr>
+          <tr><td>Brand_3june</td><td class="l">Search</td><td>₹37</td><td>2.00</td><td>₹6,500</td><td style="color:var(--good)">175.50</td><td style="color:var(--good)">₹18.52</td></tr>
+          <tr class="tot"><td>Account</td><td class="l"></td><td>₹54,783</td><td>18.69 purchases</td><td>₹99,601</td><td>1.82</td><td>₹2,931</td></tr>
+        </tbody>
+      </table></div>
+      <p class="note">Two days is not a CPA window. What is decisive at this grain: CatchAll now spends ₹2,880/day against a ₹2,987 cap, and Shopping takes 64% of spend at 1.68 ROAS. Google claims 17.0% of Shopify's ₹5,86,733 on ~20% of blended spend — coherent.</p>
+    </div>
+
+    <div class="card x6">
+      <div class="ct">The brand leak · same brand, same store, same two days</div>
+      <div class="led">
+        <div class="r two"><span class="k">CPC</span><span class="v">₹0.59 / ₹7.42</span><span class="v2">12.6×</span></div>
+        <div class="r two"><span class="k">Conversion rate</span><span class="v">3.17% / 0.31%</span><span class="v2">1/10th</span></div>
+        <div class="r two neg"><span class="k">Cost per conversion</span><span class="v">₹18.52 / ₹2,404</span><span class="v2">130×</span></div>
+        <div class="r two"><span class="k">Indiranagar brand CPC · Aug</span><span class="v">₹55.99</span><span class="v2">Bengaluru ₹11.67</span></div>
+        <div class="r two neg"><span class="k">22 of 28 postcode rows</span><span class="v">₹13,600</span><span class="v2">0 conv</span></div>
+      </div>
+      <p class="note"><code>Brand_3june</code> (inherited) vs <code>Search | Brand | Bangalore</code> (mine). Brand Broad 01 was buying non-brand traffic. Fix handed over: pause, head-term negatives, rebuild on phrase — <b>₹41,200/month</b>.</p>
+    </div>
+    <div class="card x6">
+      <div class="ct">Competitive position · auction insights, August</div>
+      <div class="led">
+        <div class="r two hi"><span class="k"><b>MR Jewels</b></span><span class="v">&lt;10%</span><span class="v2">61.8% top</span></div>
+        <div class="r two"><span class="k">palmonas.com</span><span class="v">14.51%</span><span class="v2">65.6%</span></div>
+        <div class="r two"><span class="k">myntra.com</span><span class="v">14.12%</span><span class="v2">69.0%</span></div>
+        <div class="r two"><span class="k">amazon.in</span><span class="v">10.79%</span><span class="v2">69.8%</span></div>
+        <div class="r two"><span class="k">giva.co</span><span class="v">&lt;10%</span><span class="v2">71.6%</span></div>
+        <div class="r two"><span class="k">kushals.com</span><span class="v">&lt;10%</span><span class="v2">64.1%</span></div>
+      </div>
+      <p class="note">The first auction insights the account ever produced — 26 months had been below Google's 10% reporting floor.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 09 -->
+<section class="sec" id="s09">
+  <div class="shead"><span class="snum">09</span><h2>The demand side</h2><span class="stag">13.7 lakh search terms read</span></div>
+  <p class="dek">Two full exports: 8,60,452 unique terms all-time, and 5,05,231 for August alone. The waste was large. The sellers fit on three pages.</p>
+
+  <div class="figs" style="margin-bottom:26px">
+    <div class="fig"><div class="l">All-time terms</div><div class="v">8.6<small> L</small></div><div class="d">2,692 converted · 0.31%</div></div>
+    <div class="fig al"><div class="l">All-time zero-conv spend</div><div class="v">₹25.9<small> L</small></div><div class="d">65.8% of term cost</div></div>
+    <div class="fig"><div class="l">August terms</div><div class="v">5.05<small> L</small></div><div class="d">43,797 took cost</div></div>
+    <div class="fig al"><div class="l">August zero-conv spend</div><div class="v">₹4.99<small> L</small></div><div class="d">88.5% of named spend</div></div>
+    <div class="fig up"><div class="l">CPA where it works</div><div class="v">₹37</div><div class="d">1,026 terms · 1,744 conv</div></div>
+    <div class="fig au"><div class="l">Terms = 80% of conv</div><div class="v">596</div><div class="d">Three pages</div></div>
+  </div>
+
+  <div class="g">
+    <div class="card x7">
+      <div class="ct">Cost per conversion by demand theme · August</div>
+      <div class="chart"><svg id="c-theme" viewBox="0 0 660 250" role="img" aria-label="Spend and CPA by search theme"></svg><div class="tip" id="t-theme"></div></div>
+      <div class="lg"><span><i style="background:var(--c3)"></i>Under ₹200</span><span><i style="background:var(--c1)"></i>₹200–500</span><span><i style="background:var(--bad)"></i>Over ₹500</span></div>
+    </div>
+    <div class="card x5">
+      <div class="ct">Share of each campaign's search spend that converted nothing</div>
+      <div class="chart fit"><svg id="c-zero" viewBox="0 0 460 220" role="img" aria-label="Zero-conversion share by campaign"></svg><div class="tip" id="t-zero"></div></div>
+      <p class="note">The two campaigns recommended from week one — <code>Brand_3june</code> and PMax Store — waste 11% and 22%. Everything else 86–94%.</p>
+    </div>
+
+    <div class="card x6">
+      <div class="ct">Intent buckets · all time</div>
+      <div class="chart fit"><svg id="c-intent" viewBox="0 0 520 300" role="img" aria-label="All-time search intent buckets"></svg><div class="tip" id="t-intent"></div></div>
+      <p class="note">Brand: 207 terms, 1.3% of spend, <b>24.8% of all conversions at ₹46</b>. Competitors: ₹3.62 L at ₹1,215. Buckets overlap.</p>
+    </div>
+    <div class="card x6">
+      <div class="ct">The negative list, built surgically</div>
+      <div class="led">
+        <div class="r two"><span class="k"><b>Cut</b> · competitor terms, zero conv, ≥₹100</span><span class="v">₹19,091</span><span class="v2">67 terms</span></div>
+        <div class="r two"><span class="k"><b>Cut</b> · watches, apparel, bags, bullion, repair</span><span class="v">₹10,124</span><span class="v2">~1,450</span></div>
+        <div class="r two"><span class="k"><b>Cut</b> · single terms &gt;₹500, nothing back</span><span class="v">₹28,942</span><span class="v2">32 terms</span></div>
+        <div class="r two hi"><span class="k"><b>Defensible cut, August</b></span><span class="v">≈₹50,000</span><span class="v2">5.4%</span></div>
+        <div class="r two pos"><span class="k"><b>Keep</b> · competitor terms that convert</span><span class="v">₹9,777</span><span class="v2">₹87 CPA</span></div>
+        <div class="r two pos"><span class="k"><b>Keep and expand</b> · local intent</span><span class="v">₹24,487</span><span class="v2">₹56 CPA</span></div>
+        <div class="r two"><span class="k">All-time list · ≥₹300, zero conv</span><span class="v">₹6,33,931</span><span class="v2">1,042 terms</span></div>
+      </div>
+      <p class="note">The remaining ₹4.4 L of August waste is a feed and structure problem. Negatives will not touch it.</p>
+    </div>
+
+    <div class="card x6">
+      <div class="ct">Worst terms · August, zero conversions</div>
+      <div class="led">
+        <div class="r two neg"><span class="k"><code>mr jewels indiranagar</code> · own store, own postcode</span><span class="v">₹3,167</span><span class="v2">₹117/click</span></div>
+        <div class="r two"><span class="k">swarovski</span><span class="v">₹1,712</span><span class="v2">343 clicks</span></div>
+        <div class="r two"><span class="k">brooch for men</span><span class="v">₹1,521</span><span class="v2">126 clicks</span></div>
+        <div class="r two"><span class="k">polki jewellery</span><span class="v">₹1,492</span><span class="v2">313 clicks</span></div>
+        <div class="r two"><span class="k">sabyasachi jewellery online</span><span class="v">₹1,309</span><span class="v2">3 clicks</span></div>
+        <div class="r two"><span class="k">pendant necklace</span><span class="v">₹1,289</span><span class="v2">12 clicks</span></div>
+        <div class="r two"><span class="k">mrjewels bengaluru</span><span class="v">₹1,043</span><span class="v2">36 clicks</span></div>
+      </div>
+    </div>
+    <div class="card x6">
+      <div class="ct">Best converters · all time</div>
+      <div class="led">
+        <div class="r two pos"><span class="k">mr jewels</span><span class="v">573.60</span><span class="v2">₹25 CPA</span></div>
+        <div class="r two pos"><span class="k">mrjewels</span><span class="v">128.64</span><span class="v2">₹42</span></div>
+        <div class="r two pos"><span class="k">mrj jewellers</span><span class="v">88.64</span><span class="v2">₹12</span></div>
+        <div class="r two"><span class="k">brooch for men · top non-brand</span><span class="v">35.22</span><span class="v2">₹803</span></div>
+        <div class="r two"><span class="k">joules by radhika · competitor</span><span class="v">31.87</span><span class="v2">₹780</span></div>
+        <div class="r two"><span class="k">stone jewellery</span><span class="v">33.00</span><span class="v2">₹32</span></div>
+        <div class="r two"><span class="k">hyderabad pearls</span><span class="v">24.00</span><span class="v2">₹11</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 -->
+<section class="sec" id="s10">
+  <div class="shead"><span class="snum">10</span><h2>Catalogue, returns and pages</h2><span class="stag">The largest number was not advertising</span></div>
+  <p class="dek">₹2.41 crore reversed in twelve months. 8,396 SKUs in the feed, 478 that actually move. The ads pointed at necklaces; the business is built on kadas.</p>
+
+  <div class="g">
+    <div class="x5">
+      <div class="stmt alert">
+        <div class="big">₹2.41 <em>Cr</em></div>
+        <p class="sub">Reversed over twelve months — <b>19.8% of gross</b>. About ₹21.2 L in August, twice the Google bill.</p>
+      </div>
+      <div class="led" style="margin-top:22px">
+        <div class="r"><span class="k">Gross sales · 12 months</span><span class="v">₹12,18,64,994</span></div>
+        <div class="r neg"><span class="k">Discounts</span><span class="v">−₹62,29,441</span></div>
+        <div class="r neg"><span class="k">Sales reversals</span><span class="v">−₹2,41,36,654</span></div>
+        <div class="r tot"><span class="k">Net sales</span><span class="v">₹9,14,98,899</span></div>
+        <div class="r"><span class="k">Shipping and taxes</span><span class="v">+₹35,76,894</span></div>
+        <div class="r hi"><span class="k"><b>Total sales</b></span><span class="v">₹9,50,75,792</span></div>
+      </div>
+      <p class="note">A quarter recovered is <b>₹5.3 L a month</b> at zero acquisition cost.</p>
+    </div>
+    <div class="card x7">
+      <div class="ct">Reversal rate by sales channel</div>
+      <div class="chart"><svg id="c-rev" viewBox="0 0 660 200" role="img" aria-label="Reversal rate by channel"></svg><div class="tip" id="t-rev"></div></div>
+      <p class="note"><code>fastrrv3</code> carries 75.8% of sales at 23.8% reversal — 3.6× the native Online Store. It accounts for ₹2.31 Cr of the ₹2.41 Cr.</p>
+    </div>
+
+    <div class="card x12">
+      <div class="ct">Reversal rate by product · SKUs above ₹3 L gross</div>
+      <div class="chart"><svg id="c-prev" viewBox="0 0 1140 250" role="img" aria-label="Reversal rate by product"></svg><div class="tip" id="t-prev"></div></div>
+      <div class="lg"><span><i style="background:var(--bad)"></i>Deity and animal pendants</span><span><i style="background:var(--c3)"></i>Openable kadas and brooches</span></div>
+      <p class="note">Every line above 40% is a deity or animal pendant — they top sell-through at 100% and come back. ₹1,19,134 of August ad spend went to products with a 30%+ reversal history.</p>
+    </div>
+
+    <div class="card x7">
+      <div class="ct">Category economics · Aug 2025 – Aug 2026</div>
+      <div class="chart"><svg id="c-cat" viewBox="0 0 660 260" role="img" aria-label="Gross sales and return rate by category"></svg><div class="tip" id="t-cat"></div></div>
+      <p class="note">Bar = gross sales. Label = return rate. Necklace is 20.4% of revenue with the worst returns at 26.9%; brooch the best at 11.7%. Total ₹12.65 Cr, 22,242 units, ASP ₹5,688.</p>
+    </div>
+    <div class="x5">
+      <div class="g" style="gap:12px">
+        <div class="figs" style="grid-template-columns:repeat(2,minmax(0,1fr))">
+          <div class="fig"><div class="l">In the feed</div><div class="v">8,396</div><div class="d">Merchant Center</div></div>
+          <div class="fig al"><div class="l">Never shown</div><div class="v">5,562</div><div class="d">66% of catalogue</div></div>
+          <div class="fig al"><div class="l">Throttled</div><div class="v">5,656</div><div class="d">Missing feed fields</div></div>
+          <div class="fig au"><div class="l">80% of value</div><div class="v">140</div><div class="d">1.7% of SKUs</div></div>
+          <div class="fig al"><div class="l">Zero stock, still live</div><div class="v">2,153</div><div class="d">37% of variants</div></div>
+          <div class="fig up"><div class="l">Movers · 12+ units/yr</div><div class="v">478</div><div class="d">8% of variants</div></div>
+        </div>
+        <p class="note"><b>₹1,80,256</b> spent on 1,861 SKUs that returned nothing — 24.9% of Shopping. 5,200 SKUs missing <code>age_group</code> and <code>gender</code>; one feed rule releases ~5,656 products.</p>
+      </div>
+    </div>
+
+    <div class="card x7">
+      <div class="ct">Cart-add rate by landing page · product pages 4.50%</div>
+      <div class="chart"><svg id="c-lp" viewBox="0 0 660 330" role="img" aria-label="Cart-add rate by collection page"></svg><div class="tip" id="t-lp"></div></div>
+      <p class="note">The Stage 3 draft sent four ad groups to studs, necklaces and kundan-jewellery — three of the worst pages on the site. Swapped before handover: brooch +73%, earrings +68%, choker-sets +119%.</p>
+    </div>
+    <div class="card x5">
+      <div class="ct">Shopify's ten biggest sellers · red = share reversed</div>
+      <div class="chart fit"><svg id="c-top" viewBox="0 0 460 300" role="img" aria-label="Top ten products by total sales"></svg><div class="tip" id="t-top"></div></div>
+      <p class="note">Seven of ten are kadas or bangles. Only two appear in Google's top-20 spend.</p>
+    </div>
+  </div>
+</section>
+<!-- 11 -->
+<section class="sec" id="s11">
+  <div class="shead"><span class="snum">11</span><h2>Audience, time and place</h2><span class="stag">A phone business with one showroom</span></div>
+  <p class="dek">A Bengaluru showroom selling to every metro. Mobile carries almost everything. The evening is the strongest block of the week.</p>
+
+  <div class="g">
+    <div class="card x8">
+      <div class="ct">Impressions by day and hour · August · 168 cells</div>
+      <div class="chart"><svg id="c-heat" viewBox="0 0 760 200" role="img" aria-label="Impressions heatmap"></svg><div class="tip" id="t-heat"></div></div>
+      <div class="heat-lg"><span>LOW</span><span class="ramp" id="ramp"></span><span>HIGH</span><span>Peak 10PM Sunday · trough 3–5AM</span></div>
+      <p class="note">Two peaks a day: midday and <b>9–11PM</b>. 3–5AM carries 2.4% of impressions — excluded in the Stage 5 schedule.</p>
+    </div>
+    <div class="card x4">
+      <div class="ct">Device · August spend</div>
+      <div class="led">
+        <div class="r two"><span class="k">Mobile</span><span class="v">₹8,48,022</span><span class="v2">93.5%</span></div>
+        <div class="r two"><span class="k">Computers</span><span class="v">₹49,233</span><span class="v2">5.4%</span></div>
+        <div class="r two"><span class="k">Tablets</span><span class="v">₹7,422</span><span class="v2">0.8%</span></div>
+        <div class="r two neg"><span class="k">TV screens</span><span class="v">₹2,720</span><span class="v2">0 conv</span></div>
+      </div>
+      <p class="note">Mobile: 96.3% of conversions, 95.1% of 35.6 L store sessions. All-time, desktop converted at 2× mobile (1.42% vs 0.70%) on 7.4% of spend.</p>
+    </div>
+
+    <div class="card x6">
+      <div class="ct">Sessions by city · 12 months</div>
+      <div class="chart fit"><svg id="c-loc" viewBox="0 0 520 270" role="img" aria-label="Sessions by city"></svg><div class="tip" id="t-loc"></div></div>
+      <p class="note">Bengaluru is 9.0% of Indian sessions. <b>Hyderabad, Mumbai and Delhi together send 2.6× Bengaluru.</b> Eight metros = 45.9%. 7.4% of sessions come from outside India, led by 97,561 from the US.</p>
+    </div>
+    <div class="card x6">
+      <div class="ct">Demographics · known audience, all time</div>
+      <div class="chart fit"><svg id="c-demo" viewBox="0 0 520 250" role="img" aria-label="Impressions by age and gender"></svg><div class="tip" id="t-demo"></div></div>
+      <div class="lg"><span><i style="background:var(--c4)"></i>Female</span><span><i style="background:var(--c1)"></i>Male</span></div>
+      <p class="note">Known for only ~4% of impressions — a signal, not a target. 45–54 leads at 24.6%; men are 45.5%. That is why no asset group was restricted to women: festive jewellery here is often bought <i>for</i> women <i>by</i> men.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 12 -->
+<section class="sec" id="s12">
+  <div class="shead"><span class="snum">12</span><h2>Attribution and the customer</h2><span class="stag">Who is actually buying</span></div>
+  <p class="dek">Shopify can name the source of 3.4% of orders. That sliver is biased — and still points the same way as every other method in this study.</p>
+
+  <div class="figs" style="margin-bottom:26px">
+    <div class="fig al"><div class="l">Known source</div><div class="v">3.4%</div><div class="d">708 of 21,015 orders</div></div>
+    <div class="fig au"><div class="l">New customers</div><div class="v">79.6%</div><div class="d">14,534 new · 3,733 back</div></div>
+    <div class="fig"><div class="l">Month-1 repeat</div><div class="v">12.6%</div><div class="d">Decays to ~1% by month 6</div></div>
+    <div class="fig"><div class="l">Blended AOV</div><div class="v">₹5,105</div><div class="d">All orders</div></div>
+    <div class="fig al"><div class="l">Google paid CVR</div><div class="v">0.004%</div><div class="d">7.26 L sessions → 26</div></div>
+    <div class="fig up"><div class="l">kwikchat CVR</div><div class="v">0.198%</div><div class="d">55× Google paid</div></div>
+  </div>
+
+  <div class="g">
+    <div class="card x7">
+      <div class="ct">Referring channels with orders · sessions against orders</div>
+      <div class="chart"><svg id="c-chan" viewBox="0 0 660 300" role="img" aria-label="Sessions and orders by channel"></svg><div class="tip" id="t-chan"></div></div>
+      <div class="lg"><span><i style="background:var(--c1)"></i>Sessions</span><span><i style="background:var(--bad)"></i>Sessions, CVR &lt;0.01%</span><span><i style="background:var(--gold)"></i>Orders</span></div>
+      <p class="note">Separate scales — read the mismatch, not the heights.</p>
+    </div>
+    <div class="card x5">
+      <div class="ct">New against returning</div>
+      <div class="chart fit"><svg id="c-cust" viewBox="0 0 300 150" role="img" aria-label="New versus returning customers"></svg><div class="tip" id="t-cust"></div></div>
+      <div class="led" style="margin-top:14px">
+        <div class="r two"><span class="k">Google organic</span><span class="v">53,207 → 56</span><span class="v2" style="color:var(--good)">₹19,996 AOV</span></div>
+        <div class="r two"><span class="k">Google paid</span><span class="v">7,26,105 → 26</span><span class="v2" style="color:var(--bad)">₹7,680 AOV</span></div>
+        <div class="r two"><span class="k">Instagram organic</span><span class="v">30,067 → 35</span><span class="v2">0.116%</span></div>
+        <div class="r two"><span class="k">Facebook paid</span><span class="v">5,35,757 → 37</span><span class="v2">0.007%</span></div>
+        <div class="r two neg"><span class="k">YouTube paid</span><span class="v">47,828 → 0</span><span class="v2">0 orders</span></div>
+      </div>
+      <p class="note"><b>An acquisition treadmill, not a retention business.</b> Four in five customers are new, which is why reversals and first-order cost matter more here than anywhere.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 13 -->
+<section class="sec" id="s13">
+  <div class="shead"><span class="snum">13</span><h2>What I got wrong</h2><span class="stag">Seven calls, owned</span></div>
+  <p class="dek">A case study that only lists wins is a sales page. These are the decisions and readings that were wrong, what they cost, and how each was caught.</p>
+
+  <div style="border-top:1px solid var(--bad)">
+    <div class="act bad"><div class="n">1</div><div>
+      <h3>Raised the brand budget against my own spec</h3>
+      <p>On 17 Aug I took <code>Search | Brand | Bangalore</code> from ₹2,000 to ₹3,100 a day. My AG04 spec, written the same day, said cap it at ₹150–200 — measured brand demand was about ₹64 a day. The surplus went into broad match buying non-brand clicks. The campaign was also on Smart Bidding, so the ₹12 ad-group caps did nothing: AG04 ran at ₹36.61.</p>
+      <div class="m"><span><b>Cost</b> ₹57,249 at ₹2,408 CPA vs ₹36 on Brand_3june</span><span><b>Caught</b> 24 Aug bid-strategy pre-flight</span></div>
+    </div></div>
+    <div class="act bad"><div class="n">2</div><div>
+      <h3>Let spend scale on an unverified value signal</h3>
+      <p>August billing rose 143% while <code>Stand_14Jan</code> and <code>Sales_PMax_CatchAll</code> were reporting impossible value. CatchAll scaled 537% and Stand_14Jan 50% on numbers later shown to be defective. Only S_Tofu's scale-up was sound — its CPC fell to ₹4.67 on a 513% click increase.</p>
+      <div class="m"><span><b>Cost</b> MER 19.61× → 9.82×</span><span><b>Caught</b> 1 Sep, daily per-campaign exports</span></div>
+    </div></div>
+    <div class="act bad"><div class="n">3</div><div>
+      <h3>Carried a false P0 through four documents</h3>
+      <p>"33 lifetime add-to-cart events, purchase tracking broken" came from the original audit and went into the Stage 4 plans, the C04 walkthrough and the blended review. It was read off goal cards that only count primary actions. Add-to-cart fired 26,737 times. A Shopify pixel rebuild and a 7 Sep scaling hard-stop were both built on it.</p>
+      <div class="m"><span><b>Cost</b> A week of gated decisions</span><span><b>Caught</b> 2 Sep, reading the conversion actions directly</span></div>
+    </div></div>
+    <div class="act bad"><div class="n">4</div><div>
+      <h3>Misread a 100-row sample as a broken export</h3>
+      <p>The top-100 search terms by cost showed zero conversions on every row. I read it as a bad export and drafted a blanket competitor exclusion. The full 5,05,231-term file showed those 70 competitor terms returning 112.5 conversions at ₹87 — among the cheapest in the account.</p>
+      <div class="m"><span><b>Cost</b> None — reversed before it shipped</span><span><b>Caught</b> 1 Sep, full export</span></div>
+    </div></div>
+    <div class="act bad"><div class="n">5</div><div>
+      <h3>Linear-scaled a partial month</h3>
+      <p>The first blended review scaled 17 days of July by 31/17. Returns post in one batch late in the month, so the first 17 days carry 66% of revenue, not 55%. July MER went out as 3.20× and was restated to 2.68× the same day.</p>
+      <div class="m"><span><b>Cost</b> One wrong headline, restated in public</span><span><b>Rule since</b> Never linear-scale a month here</span></div>
+    </div></div>
+    <div class="act bad"><div class="n">6</div><div>
+      <h3>Dated the festive season wrong</h3>
+      <p>The Festive &amp; Gifting spec put Dhanteras on 26 Oct and Diwali on 28 Oct 2026. They fall on 6 and 8 November. The decision held — build early — but the runway was ten days longer than the spec claimed.</p>
+      <div class="m"><span><b>Cost</b> None to spend</span><span><b>Caught</b> 27 Aug dashboard cross-check</span></div>
+    </div></div>
+    <div class="act bad"><div class="n">7</div><div>
+      <h3>Left remarketing running without a stop rule</h3>
+      <p>C04 Demand Gen remarketing went live with a cart audience and three ads. By 2 Sep: ₹11,971, 3,118 clicks, zero purchases, and a second ad group already specced on the same foundation. The 92 view-through conversions argued for patience; the missing stop-or-continue date did not.</p>
+      <div class="m"><span><b>Cost</b> ₹11,971</span><span><b>Open at close</b> All-conv check pending</span></div>
+    </div></div>
+  </div>
+
+  <div class="g" style="margin-top:30px">
+    <div class="card x12 gold">
+      <div class="ct" style="color:var(--gold)">Working rules that came out of it</div>
+      <div class="g">
+        <div class="x4"><p class="cb"><b>Read the source, not the summary card.</b> Conversion actions, not goal tiles. Full exports, not samples.</p></div>
+        <div class="x4"><p class="cb"><b>Verify the signal before scaling on it.</b> Reconcile Google purchases to Shopify orders weekly; stop if Google claims more than 60%.</p></div>
+        <div class="x4"><p class="cb"><b>Restate in public.</b> Every correction above is written into the document it corrects. Nothing silently fixed.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 14 -->
+<section class="sec" id="s14">
+  <div class="shead"><span class="snum">14</span><h2>The plans handed over</h2><span class="stag">Stages 3, 4 and 5 · the road to 100</span></div>
+  <p class="dek">Every plan reached the same conclusion from a different direction: media can add 25–45 orders a day, but the missing 43 sit in the cart.</p>
+
+  <div class="g">
+    <div class="card x7">
+      <div class="ct">Stage 4 · 50 Google orders a day by November</div>
+      <div class="chart"><svg id="c-s4" viewBox="0 0 660 330" role="img" aria-label="Stage 4 budget by campaign, August versus November"></svg><div class="tip" id="t-s4"></div></div>
+      <div class="lg"><span><i style="background:var(--ink-3)"></i>August actual</span><span><i style="background:var(--gold)"></i>November plan</span></div>
+      <p class="note">Shopping falls from 83% of purchase spend to 17%; PMax rises from 3% to 64%. Purchase media ₹8.13 L → ₹13.34 L. Only ₹5.44 L is new money.</p>
+    </div>
+    <div class="x5">
+      <div class="led">
+        <div class="r two"><span class="k"><b>Base case</b> · full budget</span><span class="v">66.8/day</span><span class="v2">₹665 CPA</span></div>
+        <div class="r two"><span class="k"><b>Downside</b> · full budget</span><span class="v">47.1/day</span><span class="v2">₹945 CPA</span></div>
+        <div class="r two"><span class="k">September gate</span><span class="v">30–39</span><span class="v2">PMax CPA &lt;₹600</span></div>
+        <div class="r two"><span class="k">October gate</span><span class="v">42–58</span><span class="v2">+10 store orders</span></div>
+        <div class="r two hi"><span class="k"><b>November</b></span><span class="v">47–67</span><span class="v2">50 sustained 7d</span></div>
+      </div>
+      <div class="card" style="margin-top:18px">
+        <div class="ct">Graded on two numbers, side by side</div>
+        <div class="led">
+          <div class="r two"><span class="k">Google purchases/day</span><span class="v">23.0 → 50</span><span class="v2">the commitment</span></div>
+          <div class="r two"><span class="k">Shopify orders/day</span><span class="v">62.9 → 79–89</span><span class="v2">the truth</span></div>
+          <div class="r two"><span class="k">Blended MER</span><span class="v">2.85× → 2.9–3.4×</span><span class="v2">floor 3.50×</span></div>
+          <div class="r two"><span class="k">Blended CAC</span><span class="v">₹1,549 → ₹1,190–1,410</span><span class="v2">—</span></div>
+        </div>
+        <p class="note">CatchAll CPA modelled as <code>₹217 × (spend ÷ ₹25,821)^k</code>, k 0.35–0.50 — 2.9× to 4.6× degradation assumed, not a flat extrapolation.</p>
+      </div>
+    </div>
+
+    <div class="card x6">
+      <div class="ct">Stage 5 · PMax Core Movers · the ramp</div>
+      <div class="chart fit"><svg id="c-s5" viewBox="0 0 520 240" role="img" aria-label="Stage 5 budget ramp and expected orders"></svg><div class="tip" id="t-s5"></div></div>
+      <p class="note">One campaign on the 478 movers across eight metros. Four asset groups: earrings 39.7% · kada 37.0% · rings 15.1% · men's brooch 8.2% of orders. Necklace excluded on 26.9% returns and a 1.09% page. Target ₹29,000/day → 25 orders base, 21 downside.</p>
+    </div>
+    <div class="card x6">
+      <div class="ct">Stage 5 profit gate · ₹29,000/day, 25 orders/day</div>
+      <div class="chart fit"><svg id="c-gate" viewBox="0 0 520 240" role="img" aria-label="Monthly contribution by gross margin"></svg><div class="tip" id="t-gate"></div></div>
+      <p class="note">₹1,17,304 gross/day · ₹97,403 net of 17% returns · net ROAS 3.36×. <b>Break-even at 30% gross margin.</b> The margin figure was never supplied.</p>
+    </div>
+
+    <div class="card x7">
+      <div class="ct">Cart→order rate against orders a day · traffic and spend held flat</div>
+      <div class="chart"><svg id="c-cart" viewBox="0 0 660 230" role="img" aria-label="Orders per day by cart-to-order rate"></svg><div class="tip" id="t-cart"></div></div>
+      <p class="note">1,43,983 sessions added to cart in a year; 1,23,133 left. <b>At 25% cart→order the store does 98.6 orders a day on today's traffic.</b></p>
+    </div>
+    <div class="x5">
+      <div class="card">
+        <div class="ct">Three routes to 100 a day</div>
+        <div class="led">
+          <div class="r two neg"><span class="k"><b>A · buy it</b><span class="s">3,042 orders/mo at ₹1,500–1,700 CAC</span></span><span class="v">₹45–52 L/mo</span><span class="v2">breaks 3.50×</span></div>
+          <div class="r two pos"><span class="k"><b>B · fix the cart</b><span class="s">14.5% → 25% cart→order</span></span><span class="v">₹0 media</span><span class="v2">99/day</span></div>
+          <div class="r two"><span class="k"><b>C · non-brand Search</b><span class="s">₹1,950/day at ₹300–500 CPA</span></span><span class="v">+4–7/day</span><span class="v2">efficiency layer</span></div>
+        </div>
+      </div>
+      <div class="card" style="margin-top:18px">
+        <div class="ct">Call tracking · specced 28 Aug</div>
+        <p class="cb">PMax Store logged <b>90 clicks-to-call</b>; the call details report returned no rows. Specced a split build: Google forwarding numbers stay on Search call assets, <b>Exotel</b> numbers go on GBP, website, Meta and offline. Caller number, duration and answer rate for every source.</p>
+      </div>
+      <div class="card" style="margin-top:18px">
+        <div class="ct">Stage 3 · non-brand Search</div>
+        <p class="cb">₹800/day ramping to ₹1,950 by week 5. Wave 1: men's brooch, polki &amp; jadau, earrings, kadas. Wave 2 adds rings — 2,549 units a year and no ad group anywhere in the account.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 15 -->
+<section class="sec" id="s15">
+  <div class="shead"><span class="snum">15</span><h2>Handover</h2><span class="stag">What stays open when I leave</span></div>
+  <p class="dek">Forty-two issues on the register at the August review. Sixteen were never marketing problems. Here is what the next owner inherits, ranked by money at stake.</p>
+
+  <div class="figs" style="margin-bottom:26px">
+    <div class="fig al"><div class="l">Critical</div><div class="v">10</div><div class="d">Costs money now</div></div>
+    <div class="fig"><div class="l">High</div><div class="v">14</div><div class="d">Inside 30 days</div></div>
+    <div class="fig"><div class="l">Medium</div><div class="v">13</div><div class="d">This quarter</div></div>
+    <div class="fig"><div class="l">Low</div><div class="v">4</div><div class="d">Housekeeping</div></div>
+    <div class="fig au"><div class="l">Account-side</div><div class="v">26</div><div class="d">Ads, feed, tracking</div></div>
+    <div class="fig au"><div class="l">Business-side</div><div class="v">16</div><div class="d">Ops, finance, product</div></div>
+  </div>
+
+  <div style="border-top:1px solid var(--gold-2)">
+    <div class="act"><div class="n">1</div><div>
+      <h3>Attack the reversal rate</h3>
+      <p>₹2.41 Cr a year, concentrated in one checkout and one product family. Get the monthly returns report and an RTO-versus-return split. Test prepaid incentives on the 40%+ pendant lines. Ask why <code>fastrrv3</code> reverses at 3.6× the native checkout.</p>
+      <div class="m"><span><b>Owner</b> Client ops</span><span><b>At stake</b> ~₹5 L/month</span></div>
+    </div></div>
+    <div class="act"><div class="n">2</div><div>
+      <h3>Finish the tracking repair</h3>
+      <p><code>Purchase CAPI</code> out of Conversions. Add-to-cart set to no value. Local actions to Secondary, scoped to PMax Store. Enhanced Conversions on. One live test order, then a 7-day Google-vs-Shopify reconciliation. Only then set value to net of reversals.</p>
+      <div class="m"><span><b>Owner</b> Account</span><span><b>At stake</b> Unblocks every bid strategy</span></div>
+    </div></div>
+    <div class="act"><div class="n">3</div><div>
+      <h3>Move money from Shopping to what works</h3>
+      <p>Raise <code>Sales_PMax_CatchAll</code> in ≤50% steps — 96% of cap at 3.53 ROAS. Put <code>Stand_14Jan</code> (1.13 ROAS) on a 7-day review. Pause Brand Broad 01. Fund Bridal &amp; Festive before 6 Nov.</p>
+      <div class="m"><span><b>Owner</b> Account</span><span><b>At stake</b> ₹41,200/mo brand + ₹4.48 L reallocated</span></div>
+    </div></div>
+    <div class="act"><div class="n">4</div><div>
+      <h3>Clean the feed</h3>
+      <p>Exclude 2,153 zero-stock variants. One rule defaults <code>age_group</code>, <code>gender</code>, <code>color</code> and releases 5,656 products. Custom labels 0–3 — mover, category, return band, price band — gate Stage 5 and Volume Core. Then the ≈₹50,000 negative list.</p>
+      <div class="m"><span><b>Owner</b> Account</span><span><b>At stake</b> ₹1.80 L dead SKUs + ₹50k/month terms</span></div>
+    </div></div>
+    <div class="act"><div class="n">5</div><div>
+      <h3>Get the two numbers that decide everything</h3>
+      <p>Gross margin by category — five numbers — and monthly Meta spend. Without margin, no campaign in this study can be called profitable. Without Meta, no blended MER after July exists. And move billing to auto-pay with a three-day balance alert: the account went dark twice in August.</p>
+      <div class="m"><span><b>Owner</b> Client finance</span><span><b>At stake</b> Healthy vs insolvent at the same revenue</span></div>
+    </div></div>
+  </div>
+
+  <div class="g" style="margin-top:36px">
+    <div class="card x6">
+      <div class="ct">The account at close · live structure</div>
+      <div class="led">
+        <div class="r two"><span class="k"><b>PMax | Store | Bangalore Core</b><span class="s">Store 01 · Bridal 02 · Festive 03 · ₹1,500/day</span></span><span class="v"><span class="vb v-scale">LIVE</span></span><span class="v2">mine</span></div>
+        <div class="r two"><span class="k"><b>Search | Brand | Bangalore</b><span class="s">AG01–AG04 · ₹3,100/day · Brand Broad 01 to pause</span></span><span class="v"><span class="vb v-fix">FIX</span></span><span class="v2">mine</span></div>
+        <div class="r two"><span class="k"><b>Demand Gen | Remarketing C04</b><span class="s">AG01 Cart 0–7d · 3 ads · AG02 specced</span></span><span class="v"><span class="vb v-watch">REVIEW</span></span><span class="v2">mine</span></div>
+        <div class="r two"><span class="k">S_Tofu_18july · Stand_14Jan<span class="s">Shopping · 64% of spend</span></span><span class="v"><span class="vb v-hold">INHERITED</span></span><span class="v2">cut</span></div>
+        <div class="r two"><span class="k">Sales_PMax_CatchAll<span class="s">Best at scale · budget-limited</span></span><span class="v"><span class="vb v-scale">INHERITED</span></span><span class="v2">raise</span></div>
+        <div class="r two"><span class="k">Brand_3june · Demand Gen_15jan<span class="s">Brand benchmark · cold prospecting</span></span><span class="v"><span class="vb v-hold">INHERITED</span></span><span class="v2">keep · cut</span></div>
+      </div>
+    </div>
+    <div class="card x6">
+      <div class="ct">Data never received</div>
+      <div class="led">
+        <div class="r two"><span class="k"><b>COGS / gross margin by category</b></span><span class="v" style="color:var(--bad)">missing</span><span class="v2">asked 21 Aug</span></div>
+        <div class="r two"><span class="k"><b>Meta spend, Aug–Sep 2026</b></span><span class="v" style="color:var(--bad)">missing</span><span class="v2">asked 21 Aug</span></div>
+        <div class="r two"><span class="k">Returns by reason, SKU, payment</span><span class="v" style="color:var(--bad)">missing</span><span class="v2">—</span></div>
+        <div class="r two"><span class="k">COD share · remittance days · stock value</span><span class="v" style="color:var(--bad)">missing</span><span class="v2">—</span></div>
+        <div class="r two"><span class="k">Checkout step events</span><span class="v" style="color:var(--bad)">missing</span><span class="v2">—</span></div>
+        <div class="r two"><span class="k">Inventory buy plan Nov–Feb</span><span class="v" style="color:var(--bad)">missing</span><span class="v2">4.0 months cover</span></div>
+      </div>
+      <p class="note">Blended review self-score at the last audit: <b>68/100</b> — data quality 72, insight 82, financial clarity <b>40</b>, decision usefulness 78, actionability 68. One number, COGS, caps it.</p>
+    </div>
+
+    <div class="x12"><div class="pull">The build was good — <em>three new asset groups under ₹30 a conversion</em>, a store campaign that out-produced 25 months in one. What held the account back was the measurement it was steered by, the checkout it sent people to, and two numbers nobody sent.</div></div>
+  </div>
+</section>
+
+<footer>
+  <div class="fgrid">
+    <div>
+      <b>Sources.</b> Google Ads account 530-183-4495: all-time overview (9 Jul 2024 – 17 Aug 2026), all-time search terms (1,577,944 rows, 860,452 unique), landing page, per-store, asset group, ad and demographic reports; 1–31 August 2026 campaign, daily, product, location, device, auction insights, asset association and full search-terms exports (505,231 terms); Aug 1–26 budget tracker; Sep 1–2 campaign table; billing summary 2024–2026. Shopify: 12-month sales, orders, sessions, reversals, products, sell-through, landing pages, channels, locations and customers (Sep 2025 – Aug 2026). Client MER workbook (Aug 2024 – Jul 2026) for Meta spend. Merchant Center 5383672764. INR throughout.
+    </div>
+    <div>
+      <b>Scope and method.</b> My engagement ran from 1 August 2026 (pitch 29 July) to September 2026. Account history before August 2026 was run by a previous team and is shown as context only; campaigns marked "mine" are the ones I built. Nothing is estimated unless marked. Where sources disagree, both are shown. Execution after 3 September 2026 is not recorded.<br><br>
+      Danny · Performance marketing · Bengaluru
+      <div class="related"><a href="https://dannygrowthmarketing.github.io/mrjewels-google-ads-case-study/">All-time account review →</a><a href="https://dannygrowthmarketing.github.io/mrjewels-august-2026-report/">The August Report →</a></div>
+    </div>
+  </div>
+</footer>
+
+</div>
+<script>
+const NS='http://www.w3.org/2000/svg';
+const el=(t,a)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
+const T=(x,y,s,c,anch)=>{const t=el('text',{x,y,class:c||'ax'});if(anch)t.setAttribute('text-anchor',anch);t.textContent=s;return t;};
+const inr=n=>'₹'+Math.round(n).toLocaleString('en-IN');
+const cr=n=>n>=1e7?'₹'+(n/1e7).toFixed(2)+'Cr':n>=1e5?'₹'+(n/1e5).toFixed(1)+'L':n>=1000?'₹'+Math.round(n/1000)+'k':'₹'+Math.round(n);
+const $=id=>document.getElementById(id);
+function tipOn(hit,svg,tip,html){
+  const show=ev=>{tip.innerHTML=html;tip.style.opacity=1;const p=svg.parentElement.getBoundingClientRect();
+    const cx=(ev.touches?ev.touches[0].clientX:ev.clientX),cy=(ev.touches?ev.touches[0].clientY:ev.clientY);
+    tip.style.left=Math.min(Math.max(4,cx-p.left-70+svg.parentElement.scrollLeft),Math.max(4,p.width-220+svg.parentElement.scrollLeft))+'px';
+    tip.style.top=Math.max(2,cy-p.top-80)+'px';};
+  hit.addEventListener('mouseenter',show);hit.addEventListener('touchstart',show,{passive:true});
+  hit.addEventListener('mouseleave',()=>tip.style.opacity=0);
+}
+function ygrid(svg,W,H,P,max,n,fm){for(let i=0;i<=n;i++){const y=H-P.b-(H-P.t-P.b)*(i/n);svg.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y,y2:y,class:'gl'}));svg.appendChild(T(P.l-8,y+3.4,fm(max*i/n),'ax','end'));}}
+/* generic horizontal bars */
+function hbar(id,rows,o){
+  const svg=$('c-'+id),tip=$('t-'+id),vb=svg.viewBox.baseVal,W=vb.width;
+  const P={l:o.l||150,r:o.r||70,t:o.t||8},rh=o.rh||26,H=P.t+rows.length*rh+(o.b||6);
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  const max=o.max||Math.max(...rows.map(r=>r.v))*1.05;
+  if(o.ref!=null){const x=P.l+(W-P.l-P.r)*(o.ref/max);svg.appendChild(el('line',{x1:x,x2:x,y1:P.t-4,y2:H-4,stroke:'var(--gold)','stroke-width':1,'stroke-dasharray':'4 3'}));if(o.refl)svg.appendChild(T(x+5,H-2,o.refl,'ax'));}
+  rows.forEach((r,i)=>{
+    const y=P.t+i*rh,w=Math.max(2,(W-P.l-P.r)*(Math.min(r.v,max)/max)),bh=Math.min(16,rh-8);
+    svg.appendChild(T(P.l-10,y+rh/2+4,r.n,'ax','end'));
+    svg.appendChild(el('rect',{x:P.l,y:y+(rh-bh)/2,width:w,height:bh,fill:r.c||'var(--c1)'}));
+    svg.appendChild(T(P.l+w+7,y+rh/2+4,r.lab,'axb'));
+    const hit=el('rect',{x:0,y,width:W,height:rh,fill:'transparent'});tipOn(hit,svg,tip,r.tip);svg.appendChild(hit);
+  });
+}
+
+/* ========== DATA ========== */
+const DAILY=[[1,12410,2133,3950510],[2,17064,2590,9797105],[3,23420,3225,34774134],[4,26895,3681,74950798],[5,15077,3341,144844],[6,10527,2789,62640],[7,9941,2560,49031],[8,10963,2715,46692],[9,7785,1660,14094],[10,533,56,9168],[11,59387,8523,73470],[12,50818,11293,110080],[13,38253,10121,51258],[14,36062,9093,91492],[15,42640,9787,137824],[16,40697,8610,179506],[17,41573,8820,131662],[18,35887,7272,101977],[19,34764,7929,90608],[20,36039,7936,80798],[21,28928,5587,137262],[22,35372,6740,66837],[23,33715,5966,50838],[24,26346,4917,73245],[25,31895,5434,118152],[26,27637,4774,62027],[27,33293,5789,51833],[28,30680,4691,33499],[29,38467,7510,67020],[30,42123,8285,17185],[31,28207,5051,25588]].map(a=>({d:a[0],c:a[1],k:a[2],v:a[3]}));
+const CAMP=[{n:"S_Tofu_18july",t:"Shopping",s:449901,cv:235.36,cpa:1912,v:"HOLD"},{n:"Stand_14Jan",t:"Shopping",s:260342,cv:1231.55,cpa:211,v:"FIX"},{n:"Demand Gen_15jan",t:"Demand Gen",s:60982,cv:35,cpa:1742,v:"WATCH"},{n:"Search | Brand | Bangalore",t:"Search",s:57249,cv:23.77,cpa:2408,v:"CUT"},{n:"Sales_PMax_CatchAll",t:"PMax",s:38806,cv:120.96,cpa:321,v:"FIX"},{n:"PMax | Store | Bangalore",t:"PMax",s:27025,cv:961.97,cpa:28,v:"SCALE"},{n:"Brand_3june",t:"Search",s:3093,cv:84.98,cpa:36,v:"SCALE"}];
+const MO=[["Sep'25",6738872,1403,231597,29.1],["Oct'25",9494776,1801,540154,17.58],["Nov'25",11168033,2014,817990,13.65],["Dec'25",10930000,1927,508632,21.49],["Jan'26",11803239,2060,616224,19.15],["Feb'26",12214074,1970,840949,14.52],["Mar'26",10891353,1815,413659,26.33],["Apr'26",9782315,1642,692060,14.14],["May'26",9090511,1661,382329,23.78],["Jun'26",10298140,1782,543782,18.94],["Jul'26",8769475,1688,447196,19.61],["Aug'26",10684206,1960,1087899,9.82]].map(a=>({l:a[0],g:a[1],o:a[2],b:a[3],mer:a[4]}));
+const BILL=[["Jul'24",1214],["Aug'24",19158],["Sep'24",7628],["Oct'24",0],["Nov'24",202953],["Dec'24",121622],["Jan'25",21124],["Feb'25",39799],["Mar'25",35076],["Apr'25",18521],["May'25",38587],["Jun'25",64897],["Jul'25",100136],["Aug'25",167886],["Sep'25",231597],["Oct'25",540154],["Nov'25",817990],["Dec'25",508632],["Jan'26",616224],["Feb'26",840949],["Mar'26",413659],["Apr'26",692060],["May'26",382329],["Jun'26",543782],["Jul'26",447196],["Aug'26",1087899]];
+const BL=[["Aug'24",1034548,151195,17338,6.14,255,17.5,661],["Sep'24",1424521,305066,6497,4.57,406,22.5,767],["Oct'24",2456992,726002,17527,3.30,693,22.0,1073],["Nov'24",4136115,902072,174511,3.84,998,16.1,1079],["Dec'24",2707551,870395,101515,2.79,715,24.6,1359],["Jan'25",4024975,1181161,17961,3.36,993,20.4,1208],["Feb'25",2652615,1060515,33767,2.42,773,33.5,1416],["Mar'25",1819237,738468,29727,2.37,636,35.6,1208],["Apr'25",3262811,929592,15862,3.45,783,15.2,1207],["May'25",2519650,780032,32731,3.10,786,25.5,1034],["Jun'25",2006075,686820,55031,2.70,617,26.3,1202],["Jul'25",3638012,712873,84866,4.56,742,13.8,1075],["Aug'25",5600693,973466,142547,5.02,1236,10.1,903],["Sep'25",5266552,1103723,196463,4.05,1403,20.0,927],["Oct'25",7284471,1292157,458349,4.16,1801,22.1,972],["Nov'25",8546747,1495768,693984,3.90,2014,21.2,1087],["Dec'25",8119708,1693750,431687,3.82,1927,22.7,1103],["Jan'26",9276101,1700136,523222,4.17,2060,18.9,1079],["Feb'26",9929526,1689854,714441,4.13,1971,15.8,1220],["Mar'26",7407562,1806159,350605,3.43,1815,29.4,1188],["Apr'26",7971044,1464487,589602,3.88,1642,16.6,1251],["May'26",7192269,1744105,326090,3.47,1661,19.3,1246],["Jun'26",8886013,2044539,463591,3.54,1782,12.3,1407],["Jul'26 est",6575776,2087395,369010,2.68,1538,14.8,1597]].map(a=>({l:a[0],rev:a[1],meta:a[2],goo:a[3],mer:a[4],o:a[5],ret:a[6],cac:a[7]}));
+const CK=[["Sep'25",332,1403,23.7],["Oct'25",631,1801,35.0],["Nov'25",651,2014,32.3],["Dec'25",807,1927,41.9],["Jan'26",328,2060,15.9],["Feb'26",57,1970,2.9],["Mar'26",68,1815,3.7],["Apr'26",39,1642,2.4],["May'26",35,1661,2.1],["Jun'26",190,1782,10.7],["Jul'26",474,1688,28.1],["Aug'26",1117,1960,57.0]];
+const HEAT={days:["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],v:[[52126,27334,13072,9092,7483,11129,15462,23587,31990,54149,64235,77405,83109,81902,81623,83063,81690,80390,70508,69201,78739,99548,94725,57852],[42789,21881,8554,4577,5565,8877,11587,32979,35415,51531,77387,80394,97101,158427,130102,108995,105419,103701,82637,62532,61734,103720,132523,118893],[83087,41112,24011,15063,14246,13748,13178,35437,42960,71966,87035,102825,118803,127171,136062,133312,124107,94953,106938,117209,103609,108743,114903,67045],[60561,36202,19541,13117,13245,15105,22865,37804,44296,64852,82014,94437,117255,115842,114115,120550,116405,93880,84293,86958,84310,123306,148912,108889],[63946,33007,17095,10650,13495,14626,16128,23791,37215,42955,55249,71469,81696,85983,98095,145678,90992,86768,87907,71885,70598,68157,66460,57295],[54139,27079,17205,13272,16655,20243,22192,33845,49185,67064,88181,105902,110916,110181,112883,117781,116849,111875,96587,92158,94865,71368,65306,94343],[70237,39744,22508,12441,12200,13896,22994,38488,52480,65134,90907,93574,76494,74355,85367,99269,90051,99047,52458,33898,68569,135830,159563,77711]]};
+const CV={names:["Brand_3june","Demand Gen_15jan","S_Tofu_18july","Search | Brand","Stand_14Jan"],ser:{"Brand_3june":[4,1.41,4,5,2,5,4,4,2,0,1.5,4.5,2.43,2,2.06,4,5.43,3.55,2.94,5.97,2,2,1.53,1,0,1,1,1.22,3.22,2.22,4],"Demand Gen_15jan":[1,2,0,1,0,6,0,6,2,0,0,2,0,0,1,0,1,1,0,1,2,2,0,2,2,0,2,0,1,0,0],"S_Tofu_18july":[4.23,1.3,.93,7.33,9,5,4,2,0,0,20,13.6,11.07,12,13.57,16.57,12.33,6.26,8.83,6.96,9.67,7,5.88,8,15.76,8.33,9.49,4.36,9.89,2,0],"Search | Brand":[0,0,0,0,1,1,0,0,0,1,0,5,0,0,1.5,.5,1,4.5,0,.03,2,1,1.5,2,0,0,0,0,1,0,.74],"Stand_14Jan":[39.3,96.62,325.72,708.28,0,0,0,0,0,0,2,3,2,3.57,3,5,6.9,5,8.17,2,2,2,5,4,3,2.99,1,0,0,0,1]}};
+CV.tot=Array.from({length:31},(_,i)=>CV.names.reduce((s,n)=>s+CV.ser[n][i],0));
+
+/* ========== 01 type share ========== */
+(function(){
+  const R=[{n:'Shopping',s:80.9,c:63.3,cpa:1146,sp:5087326},{n:'Demand Gen',s:10.0,c:5.7,cpa:1588,sp:630049},{n:'Performance Max',s:8.1,c:18.8,cpa:386,sp:509053},{n:'Search',s:1.0,c:12.3,cpa:73,sp:63348}];
+  const svg=$('c-type'),tip=$('t-type'),W=660,P={l:120,r:60,t:6},rh=54,max=90;
+  R.forEach((r,i)=>{const y=P.t+i*rh,sc=(W-P.l-P.r)/max;
+    svg.appendChild(T(P.l-10,y+26,r.n,'axb','end'));
+    svg.appendChild(el('rect',{x:P.l,y:y+8,width:Math.max(2,r.s*sc),height:15,fill:'var(--c2)'}));
+    svg.appendChild(T(P.l+r.s*sc+7,y+20,r.s+'%','axb'));
+    svg.appendChild(el('rect',{x:P.l,y:y+26,width:Math.max(2,r.c*sc),height:15,fill:'var(--c3)'}));
+    svg.appendChild(T(P.l+r.c*sc+7,y+38,r.c+'%','axb'));
+    const hit=el('rect',{x:0,y,width:W,height:rh,fill:'transparent'});tipOn(hit,svg,tip,`<b>${r.n}</b><br>Spend ${inr(r.sp)} · ${r.s}%<br>Conversions ${r.c}%<br>CPA ₹${r.cpa}`);svg.appendChild(hit);});
+})();
+
+/* ========== 02 timeline ========== */
+(function(){
+  const W=1140,H=170,P={l:24,r:24,b:34},svg=$('c-time'),tip=$('t-time');
+  const start=new Date('2026-07-29'),end=new Date('2026-09-03'),days=(end-start)/864e5;
+  const E=[
+   ['2026-07-29','doc','Pitch: account review + 12-month media plan','₹30 L/month channel-mix strategy'],
+   ['2026-08-01','launch','PMax | Store | Bangalore Core live','Store & Showroom 01 · Excellent strength'],
+   ['2026-08-01','launch','Search | Brand | Bangalore live','AG01–AG03'],
+   ['2026-08-10','bad','Balance exhausted','₹533 spend · ≈₹32,000 delivery lost'],
+   ['2026-08-17','doc','All-time Google Ads review','8.6 L terms · 32 tables · published'],
+   ['2026-08-17','launch','AG04 Brand Exact + Misspellings live',''],
+   ['2026-08-17','bad','Brand budget ₹2,000 → ₹3,100/day','Against my own ₹150–200 cap'],
+   ['2026-08-20','doc','Stage 3 non-brand Search spec','₹800 → ₹1,950/day'],
+   ['2026-08-21','doc','24-month blended business review','₹9.21 Cr TTM · MER 3.78×'],
+   ['2026-08-21','launch','Bridal & Trousseau 02 built','25 themes · ₹26.60 CPA'],
+   ['2026-08-24','doc','AG05 competitor + store negatives','21 keywords'],
+   ['2026-08-25','change','Conversion goal fix','CPC ₹38.60 → ₹13.13 · CTR ×3.5'],
+   ['2026-08-25','launch','Festive & Gifting 03','24 seasonal themes · ₹20.18 CPA'],
+   ['2026-08-26','doc','Budget vs delivery audit','74% utilisation · CatchAll 28.7%'],
+   ['2026-08-27','doc','Command dashboard + Notion ops hub','HTML + 10-page PDF'],
+   ['2026-08-28','doc','Call tracking · 100/day plan · Stage 4 remarketing','Three specs in a day'],
+   ['2026-08-31','launch','C04 Demand Gen remarketing live','Cart 0–7d · 3 ads'],
+   ['2026-08-31','doc','Stage 4 scale plan · 50 orders/day','₹13.8 L/month by Nov'],
+   ['2026-08-31','bad','Balance exhausted again','₹18,571 left on 1 Sep'],
+   ['2026-09-01','doc','The August Report','16 sections · 5.05 L terms'],
+   ['2026-09-02','change','Tracking repair + Stage 5 Core Movers','False P0 retired · 3 real defects'],
+   ['2026-09-03','doc','Volume Core copy · 5 asset groups','75 headlines · last build']];
+  const COL={launch:'var(--c3)',change:'var(--c1)',doc:'var(--gold)',bad:'var(--bad)'};
+  const xs=d=>P.l+(W-P.l-P.r)*((new Date(d)-start)/864e5)/days, ax=H-P.b;
+  svg.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:ax,y2:ax,stroke:'var(--line-2)'}));
+  // tenure band
+  svg.appendChild(el('rect',{x:xs('2026-08-01'),y:ax-1,width:W-P.r-xs('2026-08-01'),height:3,fill:'var(--gold)','fill-opacity':.5}));
+  [['2026-07-29','29 Jul'],['2026-08-01','1 Aug'],['2026-08-10','10'],['2026-08-17','17'],['2026-08-25','25'],['2026-09-01','1 Sep'],['2026-09-03','3']].forEach(([d,l])=>{const x=xs(d);svg.appendChild(el('line',{x1:x,x2:x,y1:ax-3,y2:ax+4,stroke:'var(--line-2)'}));svg.appendChild(T(x,ax+17,l,'ax','middle'));});
+  svg.appendChild(T(W/2,H-3,'ENGAGEMENT · 2026','ax','middle'));
+  const lanes={};
+  E.forEach(([d,t,n,s])=>{const x=xs(d);const ln=lanes[d]=(lanes[d]||0)+1;const y=ax-18-(ln-1)*24;
+    svg.appendChild(el('line',{x1:x,x2:x,y1:ax,y2:y,stroke:COL[t],'stroke-opacity':.5}));
+    svg.appendChild(el('circle',{cx:x,cy:y,r:6,fill:COL[t],'fill-opacity':.3,stroke:COL[t],'stroke-width':1.6}));
+    const hit=el('circle',{cx:x,cy:y,r:13,fill:'transparent'});tipOn(hit,svg,tip,`<b>${new Date(d).toLocaleDateString('en-IN',{day:'numeric',month:'short'})}</b><br>${n}${s?'<br><span style="opacity:.7">'+s+'</span>':''}`);svg.appendChild(hit);});
+})();
+
+/* ========== 03 daily ========== */
+(function(){
+  const W=1140,H=190,P={l:52,r:6,t:8,b:24},svg=$('c-daily'),tip=$('t-daily');
+  const max=Math.max(...DAILY.map(r=>r.c))*1.07;ygrid(svg,W,H,P,max,4,cr);
+  const iw=(W-P.l-P.r)/31;
+  DAILY.forEach((r,i)=>{const h=Math.max(1.5,(H-P.t-P.b)*(r.c/max));
+    svg.appendChild(el('rect',{x:P.l+i*iw+3,y:H-P.b-h,width:iw-6,height:h,fill:r.d===10?'var(--bad)':'var(--c1)'}));
+    if([1,5,10,15,20,25,31].includes(r.d))svg.appendChild(T(P.l+(i+.5)*iw,H-8,r.d,'ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${r.d} August</b><br>Spend ${inr(r.c)}<br>Clicks ${r.k.toLocaleString('en-IN')}<br>CPC ₹${(r.c/r.k).toFixed(2)}`);svg.appendChild(hit);});
+})();
+
+/* ========== 03 bubble ========== */
+(function(){
+  const W=480,H=330,P={l:50,r:24,t:26,b:46},svg=$('c-bub'),tip=$('t-bub');
+  const SN={'S_Tofu_18july':'S_Tofu','Stand_14Jan':'Stand_14Jan','Demand Gen_15jan':'Demand Gen','Search | Brand | Bangalore':'Brand Search','Sales_PMax_CatchAll':'CatchAll','PMax | Store | Bangalore':'PMax Store','Brand_3june':'Brand_3june'};
+  const C=CAMP.slice().sort((a,b)=>b.cv-a.cv),maxC=2600;ygrid(svg,W,H,P,maxC,4,v=>'₹'+Math.round(v));
+  const lo=Math.log10(2000),hi=Math.log10(600000),xs=v=>P.l+(W-P.l-P.r)*(Math.log10(v)-lo)/(hi-lo);
+  [3000,10000,30000,100000,300000].forEach(v=>{svg.appendChild(el('line',{x1:xs(v),x2:xs(v),y1:P.t,y2:H-P.b,class:'gl'}));svg.appendChild(T(xs(v),H-P.b+16,cr(v),'ax','middle'));});
+  svg.appendChild(T((P.l+W-P.r)/2,H-8,'SPEND (LOG) →','ax','middle'));svg.appendChild(T(P.l-8,P.t-10,'CPA','ax','end'));
+  const placed=[];
+  C.forEach(c=>{const r=Math.min(22,5+Math.sqrt(c.cv)*.7),x=xs(c.s),y=Math.min(H-P.b-r-2,H-P.b-(H-P.t-P.b)*(c.cpa/maxC));
+    const bad=c.v==='FIX',col=bad?'var(--bad)':c.v==='SCALE'?'var(--c3)':c.v==='CUT'?'var(--c2)':'var(--c1)';
+    svg.appendChild(el('circle',{cx:x,cy:y,r,fill:col,'fill-opacity':bad?.2:.34,stroke:col,'stroke-width':1.4,'stroke-dasharray':bad?'3 2':'none'}));
+    const lab=SN[c.n],w=lab.length*5.4;let ly=y-r-7;
+    for(const cy of [y-r-7,y+r+13,y-r-19,y+r+25]){const b={x1:x-w/2,x2:x+w/2,y1:cy-9,y2:cy+3};if(!placed.some(q=>!(b.x2<q.x1||b.x1>q.x2||b.y2<q.y1||b.y1>q.y2))){ly=cy;break;}}
+    placed.push({x1:x-w/2,x2:x+w/2,y1:ly-9,y2:ly+3});
+    svg.appendChild(T(Math.min(W-w/2,Math.max(w/2,x)),ly,lab,'ax','middle'));
+    const hit=el('circle',{cx:x,cy:y,r:Math.max(14,r),fill:'transparent'});tipOn(hit,svg,tip,`<b>${c.n}</b><br>${c.t}<br>Spend ${inr(c.s)}<br>CPA ₹${c.cpa}<br>Conv ${c.cv}`);svg.appendChild(hit);});
+})();
+
+/* ========== 04 fix ========== */
+(function(){
+  const W=660,H=250,P={l:44,r:10,t:16,b:30},svg=$('c-fix'),tip=$('t-fix');
+  const M=[{n:'Clicks',b:122,a:1241,w:1119,u:''},{n:'CTR %',b:.69,a:2.40,w:3.29,u:'%'},{n:'CPC ₹',b:38.60,a:13.13,w:10.13,u:'₹'},{n:'Impr.',b:17651,a:51623,w:null,u:''}];
+  // index: before=100; show log-ish capped at 1100
+  const idx=(v,b)=>v/b*100, max=1100;
+  ygrid(svg,W,H,P,max,4,v=>Math.round(v));
+  const base=H-P.b-(H-P.t-P.b)*(100/max);
+  svg.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:base,y2:base,stroke:'var(--ink-3)','stroke-dasharray':'3 3'}));
+  const gw=(W-P.l-P.r)/M.length,bw=34;
+  M.forEach((m,i)=>{const x0=P.l+i*gw+(gw-bw*3-8)/2;
+    [[m.b,'var(--ink-3)',1,'Aug 1–17'],[m.a,'var(--c3)',1,'Aug 1–25'],[m.w,'var(--c3)',.55,'Aug 18–25']].forEach(([v,c,op,l],k)=>{
+      if(v==null)return;const iv=idx(v,m.b),h=(H-P.t-P.b)*(Math.min(iv,max)/max),x=x0+k*(bw+4);
+      svg.appendChild(el('rect',{x,y:H-P.b-h,width:bw,height:h,fill:c,'fill-opacity':op}));
+      const lab=m.u==='₹'?'₹'+v.toFixed(2):m.u==='%'?v.toFixed(2)+'%':v.toLocaleString('en-IN');
+      svg.appendChild(T(x+bw/2,H-P.b-h-5,lab,'ax','middle'));
+      const hit=el('rect',{x,y:P.t,width:bw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${m.n} · ${l}</b><br>${lab}<br>Index ${Math.round(iv)}`);svg.appendChild(hit);});
+    svg.appendChild(T(P.l+(i+.5)*gw,H-10,m.n,'axb','middle'));});
+})();
+
+/* ========== 05 agree ========== */
+(function(){
+  const W=460,H=200,P={l:40,r:10,t:18,b:30},svg=$('c-agree'),tip=$('t-agree');
+  const R=[['Google clean',2.73,'var(--c1)','5–31 Aug'],['Shopify incr.',2.99,'var(--gold)','Jul → Aug'],['After reversals',2.24,'var(--c3)','net of 19.8%']],max=3.3;
+  ygrid(svg,W,H,P,max,3,v=>v.toFixed(1)+'×');const iw=(W-P.l-P.r)/3,bw=46;
+  R.forEach(([l,v,c,s],i)=>{const h=(H-P.t-P.b)*(v/max),x=P.l+i*iw+(iw-bw)/2;
+    svg.appendChild(el('rect',{x,y:H-P.b-h,width:bw,height:h,fill:c}));svg.appendChild(T(x+bw/2,H-P.b-h-6,v.toFixed(2)+'×','axb','middle'));svg.appendChild(T(x+bw/2,H-10,l,'ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${l}</b><br>${v}×<br>${s}`);svg.appendChild(hit);});
+})();
+
+/* ========== 06 blended ========== */
+(function(){
+  const W=1140,H=260,P={l:60,r:8,t:10,b:26},svg=$('c-blend'),tip=$('t-blend');
+  const max=Math.max(...BL.map(r=>r.rev))*1.07;ygrid(svg,W,H,P,max,4,cr);
+  const iw=(W-P.l-P.r)/BL.length,bw=(iw-8)/2,sc=v=>(H-P.t-P.b)*(v/max);
+  BL.forEach((r,i)=>{const x=P.l+i*iw+4;
+    svg.appendChild(el('rect',{x,y:H-P.b-sc(r.rev),width:bw,height:sc(r.rev),fill:'var(--gold)','fill-opacity':i===BL.length-1?.55:1}));
+    const hm=sc(r.meta),hg=sc(r.goo);
+    svg.appendChild(el('rect',{x:x+bw+1,y:H-P.b-hm,width:bw,height:hm,fill:'var(--c4)'}));
+    svg.appendChild(el('rect',{x:x+bw+1,y:H-P.b-hm-hg,width:bw,height:Math.max(.8,hg),fill:'var(--c1)'}));
+    if(i%3===0||i===BL.length-1)svg.appendChild(T(P.l+(i+.5)*iw,H-8,r.l.replace(' est',''),'ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});
+    tipOn(hit,svg,tip,`<b>${r.l}</b><br>Revenue ${cr(r.rev)}<br>Meta ${cr(r.meta)} · Google ${cr(r.goo)}<br>MER ${r.mer}× · CAC ₹${r.cac}<br>Orders ${r.o.toLocaleString('en-IN')} · Returns ${r.ret}%`);svg.appendChild(hit);});
+  const tb=document.querySelector('#tbl-blend tbody');
+  tb.innerHTML=BL.map(r=>{const tot=r.meta+r.goo;return `<tr${r.l.startsWith('Jul\'26')?' class="hi"':''}><td>${r.l}</td><td>${inr(r.rev)}</td><td>${r.o.toLocaleString('en-IN')}</td><td>${r.ret}%</td><td>${inr(r.meta)}</td><td>${inr(r.goo)}</td><td>${(r.goo/tot*100).toFixed(1)}%</td><td>${r.mer.toFixed(2)}×</td><td>₹${r.cac.toLocaleString('en-IN')}</td></tr>`}).join('');
+})();
+(function(){
+  const W=660,H=220,P={l:36,r:8,t:14,b:26},svg=$('c-bmer'),tip=$('t-bmer'),max=6.6;
+  ygrid(svg,W,H,P,max,3,v=>v.toFixed(1)+'×');const iw=(W-P.l-P.r)/BL.length;
+  BL.forEach((r,i)=>{const h=(H-P.t-P.b)*(r.mer/max),last=i===BL.length-1;
+    svg.appendChild(el('rect',{x:P.l+i*iw+2,y:H-P.b-h,width:iw-4,height:h,fill:r.mer<3.5?(last?'var(--bad)':'var(--c2)'):'var(--c3)'}));
+    if(i%4===0||last)svg.appendChild(T(P.l+(i+.5)*iw,H-8,r.l.slice(0,6),'ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${r.l}</b><br>Blended MER ${r.mer}×`);svg.appendChild(hit);});
+  const y=H-P.b-(H-P.t-P.b)*(3.5/max);svg.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y,y2:y,stroke:'var(--gold)','stroke-dasharray':'4 3'}));svg.appendChild(T(W-P.r-2,y-5,'guard rail 3.50×','ax','end'));
+})();
+(function(){
+  const W=660,H=230,P={l:56,r:8,t:10,b:26},svg=$('c-year'),tip=$('t-year');
+  const max=Math.max(...MO.map(r=>r.g))*1.07;ygrid(svg,W,H,P,max,4,cr);const iw=(W-P.l-P.r)/MO.length,bw=(iw-8)/2;
+  MO.forEach((r,i)=>{const x0=P.l+i*iw+3;[[r.g,'var(--c1)',0],[r.b,'var(--c2)',bw+2]].forEach(([v,c,dx])=>{const h=Math.max(1.5,(H-P.t-P.b)*(v/max));svg.appendChild(el('rect',{x:x0+dx,y:H-P.b-h,width:bw,height:h,fill:c}));});
+    if(i%2===0||i===MO.length-1)svg.appendChild(T(P.l+(i+.5)*iw,H-8,r.l,'ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${r.l}</b><br>Gross ${cr(r.g)}<br>Google billed ${cr(r.b)}<br>Orders ${r.o.toLocaleString('en-IN')}`);svg.appendChild(hit);});
+})();
+(function(){
+  const W=460,H=220,P={l:32,r:8,t:16,b:26},svg=$('c-mer'),tip=$('t-mer'),max=32;
+  ygrid(svg,W,H,P,max,4,v=>Math.round(v)+'×');const iw=(W-P.l-P.r)/MO.length;
+  MO.forEach((r,i)=>{const h=(H-P.t-P.b)*(r.mer/max),last=i===MO.length-1;svg.appendChild(el('rect',{x:P.l+i*iw+3,y:H-P.b-h,width:iw-6,height:h,fill:last?'var(--bad)':'var(--c1)'}));
+    if(last)svg.appendChild(T(P.l+(i+.5)*iw,H-P.b-h-6,'9.82×','axb','middle'));
+    if(i%3===0||last)svg.appendChild(T(P.l+(i+.5)*iw,H-8,r.l.slice(0,3),'ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${r.l}</b><br>${r.mer}×`);svg.appendChild(hit);});
+  const y=H-P.b-(H-P.t-P.b)*(19/max);svg.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y,y2:y,stroke:'var(--gold)','stroke-dasharray':'4 3'}));svg.appendChild(T(W-P.r-2,y-5,'avg 19.0×','ax','end'));
+})();
+(function(){
+  const W=1140,H=210,P={l:56,r:8,t:10,b:26},svg=$('c-bill'),tip=$('t-bill');
+  const max=Math.max(...BILL.map(r=>r[1]))*1.07;ygrid(svg,W,H,P,max,4,cr);const iw=(W-P.l-P.r)/BILL.length;
+  BILL.forEach(([l,v],i)=>{const h=Math.max(1,(H-P.t-P.b)*(v/max)),last=i===BILL.length-1;svg.appendChild(el('rect',{x:P.l+i*iw+3,y:H-P.b-h,width:iw-6,height:h,fill:last?'var(--gold)':'var(--c1)'}));
+    if(i%3===0||last)svg.appendChild(T(P.l+(i+.5)*iw,H-8,l,'ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${l}</b><br>Billed ${inr(v)}${last?'<br>My first full month':''}`);svg.appendChild(hit);});
+})();
+
+/* ========== 07 ========== */
+(function(){
+  const W=660,H=200,P={l:56,r:6,t:8,b:24},svg=$('c-val'),tip=$('t-val');
+  const max=Math.max(...DAILY.map(r=>r.v))*1.07;ygrid(svg,W,H,P,max,4,cr);const iw=(W-P.l-P.r)/31;
+  DAILY.forEach((r,i)=>{const h=Math.max(1.2,(H-P.t-P.b)*(r.v/max));svg.appendChild(el('rect',{x:P.l+i*iw+2,y:H-P.b-h,width:iw-4,height:h,fill:r.d<=4?'var(--bad)':'var(--c1)'}));
+    if([1,5,10,15,20,25,31].includes(r.d))svg.appendChild(T(P.l+(i+.5)*iw,H-8,r.d,'ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${r.d} August</b><br>Value ${cr(r.v)}<br>Spend ${inr(r.c)}`);svg.appendChild(hit);});
+})();
+(function(){
+  const W=660,H=230,P={l:40,r:8,t:12,b:26},svg=$('c-stack'),tip=$('t-stack'),COL=['#4aa3d9','#e0913a','#3fbf8a','#e6b04a','#d57ab6'];
+  const max=Math.max(...CV.tot)*1.06;ygrid(svg,W,H,P,max,4,v=>Math.round(v));const iw=(W-P.l-P.r)/31;
+  for(let i=0;i<31;i++){let acc=0;CV.names.forEach((n,k)=>{const v=CV.ser[n][i];if(v<=0)return;const yT=H-P.b-(H-P.t-P.b)*((acc+v)/max),hh=(H-P.t-P.b)*(v/max);svg.appendChild(el('rect',{x:P.l+i*iw+2,y:yT,width:iw-4,height:Math.max(.8,hh-.8),fill:COL[k]}));acc+=v;});
+    if([1,5,10,15,20,25,31].includes(i+1))svg.appendChild(T(P.l+(i+.5)*iw,H-8,i+1,'ax','middle'));
+    const rows=CV.names.map((n,k)=>CV.ser[n][i]>0?`<span style="color:${COL[k]}">■</span> ${n} ${CV.ser[n][i].toFixed(2)}`:null).filter(Boolean).join('<br>');
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${i+1} Aug</b> · ${CV.tot[i].toFixed(2)} conv<br>${rows||'none'}`);svg.appendChild(hit);}
+  $('lg-stack').innerHTML=CV.names.map((n,k)=>`<span><i style="background:${COL[k]}"></i>${n}</span>`).join('');
+})();
+(function(){
+  const W=1140,H=190,P={l:46,r:8,t:16,b:26},svg=$('c-chk'),tip=$('t-chk'),max=60;ygrid(svg,W,H,P,max,3,v=>v.toFixed(0)+'%');const iw=(W-P.l-P.r)/CK.length;
+  CK.forEach(([l,c,o,ts],i)=>{const hh=Math.max(1.5,(H-P.t-P.b)*(ts/max));svg.appendChild(el('rect',{x:P.l+i*iw+10,y:H-P.b-hh,width:iw-20,height:hh,fill:ts<12?'var(--bad)':'var(--c1)'}));
+    svg.appendChild(T(P.l+(i+.5)*iw,H-P.b-hh-6,ts+'%','axb','middle'));svg.appendChild(T(P.l+(i+.5)*iw,H-8,l,'ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${l}</b><br>Tracked checkouts ${c.toLocaleString('en-IN')}<br>Real orders ${o.toLocaleString('en-IN')}<br>Coverage ${ts}%`);svg.appendChild(hit);});
+})();
+(function(){
+  const F=[['Sessions',420817],['Cart additions',15350],['Reached checkout',1472],['Orders placed',1960]],W=460,rh=38,svg=$('c-fun'),tip=$('t-fun'),max=F[0][1];
+  F.forEach(([l,v],i)=>{const y=8+i*rh,w=Math.max(3,(W-100)*Math.pow(v/max,.42)),last=i===3;
+    svg.appendChild(el('rect',{x:8,y:y+4,width:w,height:24,fill:last?'var(--gold)':'var(--c1)','fill-opacity':last?1:.75}));
+    svg.appendChild(T(18,y+20,l,'axb'));svg.appendChild(T(8+w+9,y+20,v.toLocaleString('en-IN'),'axb'));
+    const hit=el('rect',{x:0,y,width:W,height:rh,fill:'transparent'});tipOn(hit,svg,tip,`<b>${l}</b><br>${v.toLocaleString('en-IN')}<br>${(v/max*100).toFixed(3)}% of sessions`);svg.appendChild(hit);});
+})();
+
+/* ========== 08 util ========== */
+hbar('util',[
+  ['Demand Gen_15jan',98.5,1766,51216],['Standard Shopping 14Jan',90.2,1221,222811],['Shopping TOFU 18July',77.1,1903,360659],['Search | Brand (mine)',55.3,2021,44534],['PMax | Store (mine)',48.4,37.59,18867],['Sales_PMax_CatchAll',28.7,217,22378],['Brand_3june',22.3,40,2904]
+].map(([n,v,cpa,s])=>({n,v,c:v>=90?'var(--c2)':cpa<300?'var(--c3)':'var(--c1)',lab:v+'% · ₹'+(cpa<100?cpa.toFixed(0):cpa.toLocaleString('en-IN')),tip:`<b>${n}</b><br>Cap used ${v}%<br>Spend ${inr(s)}<br>Cost/conv ₹${cpa}`})),{l:170,r:110,rh:32,max:100});
+
+/* ========== 09 ========== */
+hbar('theme',[['Local / near me',23421,400.98,58],['Brand',19795,119.1,166],['Brooch',26504,65.41,405],["Men's",26279,62.59,420],['Core category',170618,387.89,440],['Competitor brands',56623,112.48,503],['Apparel & bags',4308,4.89,881],['Watches',5816,6,969]].sort((a,b)=>b[1]-a[1])
+  .map(([n,c,cv,cpa])=>({n,v:c,c:cpa<200?'var(--c3)':cpa<=500?'var(--c1)':'var(--bad)',lab:'₹'+cpa+' CPA',tip:`<b>${n}</b><br>Spend ${inr(c)}<br>Conv ${cv}<br>CPA ₹${cpa}`})),{l:130,r:90,rh:29});
+hbar('zero',[['Brand_3june',2170,230,10.6],['PMax | Store',18125,4012,22.1],['Search | Brand',39432,33986,86.2],['Stand_14Jan',182301,158439,86.9],['Sales_PMax_CatchAll',14284,12615,88.3],['S_Tofu_18july',307686,289785,94.2]]
+  .map(([n,c,z,p])=>({n,v:p,c:p<40?'var(--c3)':'var(--bad)',lab:p+'%',tip:`<b>${n}</b><br>Search spend ${inr(c)}<br>Returned nothing ${inr(z)}`})),{l:130,r:50,rh:34,max:100});
+hbar('intent',[['Polki / Kundan / Jadau',465970,454.8,1025],['Competitor brands',362482,298.2,1215],['Diamond / crystal',312570,309.4,1010],["Men's / brooch",283774,350.8,809],['Gold intent',261622,239.2,1094],['Silver',244310,190.4,1283],['Cheap / imitation',106832,100.5,1062],['Bridal / wedding',63756,46.9,1361],['Brand (MR Jewels)',50790,1106,46],['Info / near-me',28223,104.7,270],['Outside India',15476,32.5,476]]
+  .map(([n,c,cv,cpa])=>({n,v:c,c:cpa<300?'var(--c3)':cpa<1100?'var(--c1)':'var(--bad)',lab:cr(c)+' · ₹'+cpa.toLocaleString('en-IN'),tip:`<b>${n}</b><br>Spend ${inr(c)}<br>Conv ${cv}<br>CPA ₹${cpa}`})),{l:140,r:110,rh:26});
+
+/* ========== 10 ========== */
+hbar('rev',[['fastrrv3',97282355,23.8],['Online Store',8879278,6.7],['Draft Orders',6813653,4.2],['MRJ-Checkout',768140,0.9],['MRjewels x FlexyPe',7012502,0.4],['QuickReturns',753897,0.4]]
+  .map(([n,g,r])=>({n,v:r,c:r>=18?'var(--bad)':r>=5?'var(--c2)':'var(--c3)',lab:r+'% · '+cr(g),tip:`<b>${n}</b><br>Gross ${cr(g)}<br>Reversal ${r}%`})),{l:130,r:100,rh:30,max:28});
+(function(){
+  const rows=[['Regal Roar – Bold Tiger Pendant Necklace',955660,63.5],['Lions pendant',501419,62.4],['Divine Curve Hanuman Necklace',845312,60.9],['Gold Majesty Brass Bangle',362275,53.4],['The Ganesha Temple Necklace Set',375613,52.0],['Divine Curve – Intricate Gold Necklace',357432,48.5],['Divine Elephants Shiva Pendant Necklace',546035,47.9],['Divine Harmony Ganesha Pendant Necklace',555225,45.5],['Meenakari Polki Royale Kada Openable',336875,10.2],['Navratna Royale Heirloom kada',320391,8.8],['Rosaline Pearl Bracelet',333934,8.0],['Artistic Emerald Polki Kundan Kada',912128,7.6],['Simha Royale Emerald Lion Brooch',397003,7.3],['The Royal Heirloom',321279,0.0]];
+  hbar('prev',rows.map(([n,g,r])=>({n,v:r,c:r>=35?'var(--bad)':'var(--c3)',lab:r.toFixed(1)+'%',tip:`<b>${n}</b><br>Gross ${cr(g)}<br>Reversal ${r}%`})),{l:300,r:60,rh:17,max:70});
+})();
+hbar('cat',[['Kada / Bangle',34200000,17.1,6240,5475],['Earrings',29500000,15.9,6702,4395],['Necklace / Hasli',25800000,26.9,3087,8366],['Other',15200000,18.9,1777,8540],['Ring',9400000,22.3,2549,3687],['Choker / Set',6300000,15.2,502,12610],['Brooch',6200000,11.7,1385,4453]]
+  .map(([n,g,r,u,asp])=>({n,v:g,c:r>=22?'var(--bad)':r<=13?'var(--c3)':'var(--c1)',lab:cr(g)+' · '+r+'% ret',tip:`<b>${n}</b><br>Gross ${cr(g)}<br>Units ${u.toLocaleString('en-IN')} · ASP ₹${asp.toLocaleString('en-IN')}<br>Return rate ${r}%`})),{l:110,r:120,rh:34});
+hbar('lp',[['kada-bangles',8675,5.88],['ring',7020,5.36],['new-arrivals',11290,5.00],['earrings',19923,4.47],['brooch',6851,4.35],['kada-bangles-bracelets',19214,4.29],['choker-necklace-set',1942,4.27],['sabya-inspired',9305,3.58],['studs',29347,2.66],['necklaces',34146,2.51],['kundan-jewellery',7676,1.95],['hasli-necklace-set',4205,1.09]]
+  .map(([n,s,r])=>({n:'/'+n,v:r,c:r>=4.5?'var(--c3)':r>=4?'var(--c1)':'var(--bad)',lab:r.toFixed(2)+'%',tip:`<b>/collections/${n}</b><br>Sessions ${s.toLocaleString('en-IN')}<br>Cart-add ${r}%`})),{l:160,r:60,rh:26,max:6.5,ref:4.5,refl:'product pages 4.50%',b:18});
+hbar('top',[['Emerald & Ruby Polki Designer kada',2123769,16.4],['Meenakari Polki Gold Kada',1326490,12.0],['Sabya Gemstone Grandeur kada',1314285,18.9],['Ethereal Orbit Diamond Studs',1176463,21.9],['Gold Finished Polki kada',1028768,21.5],['Meenakari Hasli Choker Set',820842,17.4],['Gold Finish Polki Droplet Earrings',806235,14.1],['Artistic Emerald Polki Kada',769799,7.6],['Navratna Statement Ring',759626,29.1],['Gandaberunda Eagle Jadau',757868,16.8]]
+  .map(([n,t,r])=>({n,v:t,c:'var(--c1)',lab:cr(t),rr:r,tip:`<b>${n}</b><br>Total sales ${cr(t)}<br>Reversal ${r}%`})),{l:200,r:60,rh:28});
+(function(){ // overlay reversed share on top products
+  const svg=$('c-top'),rects=[...svg.querySelectorAll('rect')].filter(r=>r.getAttribute('fill')==='var(--c1)');
+  const RR=[16.4,12.0,18.9,21.9,21.5,17.4,14.1,7.6,29.1,16.8];
+  rects.forEach((r,i)=>{const o=el('rect',{x:r.getAttribute('x'),y:r.getAttribute('y'),width:(+r.getAttribute('width'))*RR[i]/100,height:r.getAttribute('height'),fill:'var(--bad)','pointer-events':'none'});r.after(o);});
+})();
+
+/* ========== 11 ========== */
+(function(){
+  const W=760,P={l:38,r:8,t:22,b:8},cw=(W-P.l-P.r)/24,ch=18,H=P.t+7*ch+P.b,svg=$('c-heat'),tip=$('t-heat');svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  let max=0;HEAT.v.forEach(r=>r.forEach(v=>{if(v>max)max=v}));
+  const ramp=['#16121f','#231c38','#322752','#43336d','#574489','#6d58a6','#8a73c7','#ab98e6','#d4c8ff'],col=v=>ramp[Math.min(8,Math.floor(Math.pow(v/max,.62)*9))];
+  const hr=h=>(h%12||12)+(h<12?'AM':'PM');
+  HEAT.days.forEach((d,r)=>{svg.appendChild(T(P.l-8,P.t+r*ch+13,d,'ax','end'));HEAT.v[r].forEach((v,c)=>{svg.appendChild(el('rect',{x:P.l+c*cw+.6,y:P.t+r*ch+.6,width:cw-1.2,height:ch-1.2,fill:col(v)}));
+    const hit=el('rect',{x:P.l+c*cw,y:P.t+r*ch,width:cw,height:ch,fill:'transparent'});tipOn(hit,svg,tip,`<b>${d} ${hr(c)}</b><br>${v.toLocaleString('en-IN')} impressions`);svg.appendChild(hit);});});
+  [0,3,6,9,12,15,18,21].forEach(i=>svg.appendChild(T(P.l+(i+.5)*cw,P.t-7,hr(i),'ax','middle')));
+  $('ramp').innerHTML=ramp.map(c=>`<i style="background:${c}"></i>`).join('');
+})();
+hbar('loc',[['Bengaluru',296931],['Hyderabad',273694],['Mumbai',270131],['New Delhi',215262],['Pune',131851],['Delhi',116923],['Kolkata',105610],['Ahmedabad',104656],['Chennai',103711],['Jaipur',100997]]
+  .map(([n,s],i)=>({n,v:s,c:i===0?'var(--gold)':'var(--c1)',lab:(s/1000).toFixed(0)+'k',tip:`<b>${n}</b><br>${s.toLocaleString('en-IN')} sessions`})),{l:90,r:50,rh:25});
+(function(){
+  const A=[['18–24',56531,63518],['25–34',183652,207461],['35–44',257623,305094],['45–54',264118,358779],['55–64',227336,282477],['65+',160176,162957]];
+  const W=520,H=250,P={l:52,r:10,t:14,b:28},svg=$('c-demo'),tip=$('t-demo'),max=400000;ygrid(svg,W,H,P,max,4,v=>Math.round(v/1000)+'k');
+  const iw=(W-P.l-P.r)/A.length,bw=(iw-20)/2;
+  A.forEach(([l,m,f],i)=>{const x=P.l+i*iw+10;[[f,'var(--c4)',0],[m,'var(--c1)',bw+2]].forEach(([v,c,dx])=>{const h=(H-P.t-P.b)*(v/max);svg.appendChild(el('rect',{x:x+dx,y:H-P.b-h,width:bw,height:h,fill:c}));});
+    svg.appendChild(T(P.l+(i+.5)*iw,H-9,l,'ax','middle'));const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${l}</b><br>Female ${f.toLocaleString('en-IN')}<br>Male ${m.toLocaleString('en-IN')}<br>${((m+f)/2531371*100).toFixed(1)}% of known`);svg.appendChild(hit);});
+})();
+
+/* ========== 12 ========== */
+(function(){
+  const C=[['instagram',552178,159,0.0288,1864927],['facebook',885852,136,0.0154,1593997],['google · organic',53207,56,0.1052,1147577],['direct',214007,65,0.0304,1015727],['facebook · paid',535757,37,0.0069,501214],['kwikchat',50927,101,0.1983,483845],['instagram · organic',30067,35,0.1164,427018],['instagram · paid',253797,30,0.0118,288834],['other',21746,14,0.0644,251107],['google · paid',726105,26,0.0036,211612]];
+  const W=660,rh=27,P={l:128,r:8,t:22},H=P.t+C.length*rh+10,svg=$('c-chan'),tip=$('t-chan');svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  const mx=(W-P.l-P.r-70)/2,ms=Math.max(...C.map(c=>c[1])),mo=Math.max(...C.map(c=>c[2]));
+  svg.appendChild(T(P.l+mx/2,P.t-8,'SESSIONS','ax','middle'));svg.appendChild(T(P.l+mx+40+mx/2,P.t-8,'ORDERS','ax','middle'));
+  C.forEach(([n,s,o,cvr,v],i)=>{const y=P.t+i*rh,w1=Math.max(1.5,mx*s/ms),w2=Math.max(1.5,mx*o/mo);
+    svg.appendChild(T(P.l-8,y+15,n,'ax','end'));
+    svg.appendChild(el('rect',{x:P.l,y:y+5,width:w1,height:14,fill:cvr<0.01?'var(--bad)':'var(--c1)','fill-opacity':.85}));
+    svg.appendChild(el('rect',{x:P.l+mx+40,y:y+5,width:w2,height:14,fill:'var(--gold)'}));
+    svg.appendChild(T(P.l+mx+36,y+15,(s/1000).toFixed(0)+'k','ax','end'));svg.appendChild(T(P.l+mx+40+w2+6,y+15,o,'axb'));
+    const hit=el('rect',{x:0,y,width:W,height:rh,fill:'transparent'});tipOn(hit,svg,tip,`<b>${n}</b><br>Sessions ${s.toLocaleString('en-IN')}<br>Orders ${o}<br>CVR ${cvr}%<br>Sales ${cr(v)}`);svg.appendChild(hit);});
+})();
+(function(){
+  const W=300,H=150,svg=$('c-cust'),tip=$('t-cust'),n=14534,r=3733,t=n+r,cx=W/2,cy=H/2+2,R=58,ir=36;let a=-Math.PI/2;
+  [['New customers',n,'var(--gold)'],['Returning',r,'var(--c1)']].forEach(([l,v,c])=>{const sw=v/t*Math.PI*2,e=a+sw,big=sw>Math.PI?1:0;
+    const p=`M ${cx+R*Math.cos(a)} ${cy+R*Math.sin(a)} A ${R} ${R} 0 ${big} 1 ${cx+R*Math.cos(e)} ${cy+R*Math.sin(e)} L ${cx+ir*Math.cos(e)} ${cy+ir*Math.sin(e)} A ${ir} ${ir} 0 ${big} 0 ${cx+ir*Math.cos(a)} ${cy+ir*Math.sin(a)} Z`;
+    svg.appendChild(el('path',{d:p,fill:c,stroke:'var(--panel)','stroke-width':2}));const hit=el('path',{d:p,fill:'transparent'});tipOn(hit,svg,tip,`<b>${l}</b><br>${v.toLocaleString('en-IN')} · ${(v/t*100).toFixed(1)}%`);svg.appendChild(hit);a=e;});
+  const c1=el('text',{x:cx,y:cy+4,'text-anchor':'middle',fill:'#b9a6ff',style:'font-family:var(--serif);font-size:24px;font-weight:600'});c1.textContent='79.6%';svg.appendChild(c1);
+  const c2=T(cx,cy+18,'NEW','ax','middle');svg.appendChild(c2);
+})();
+
+/* ========== 14 ========== */
+(function(){
+  const R=[['PMax | CatchAll',25821,550000],['PMax | Core Movers',0,300000],['Standard Shopping',257089,150000],['Festive | Diwali',0,90000],['C04 Remarketing',59095,75000],['Shopping TOFU',416145,75000],['Search | Non-Brand',0,58500],['PMax | Store',21769,45000],['Search | Competitor',0,25000],['Brand Search',54737,10000]];
+  const W=660,rh=31,P={l:136,r:60,t:6},H=P.t+R.length*rh+6,svg=$('c-s4'),tip=$('t-s4');svg.setAttribute('viewBox',`0 0 ${W} ${H}`);const max=560000,sc=(W-P.l-P.r)/max;
+  R.forEach(([n,a,nv],i)=>{const y=P.t+i*rh;svg.appendChild(T(P.l-10,y+rh/2+4,n,'ax','end'));
+    svg.appendChild(el('rect',{x:P.l,y:y+5,width:Math.max(1.5,a*sc),height:9,fill:'var(--ink-3)'}));
+    svg.appendChild(el('rect',{x:P.l,y:y+15,width:Math.max(1.5,nv*sc),height:10,fill:'var(--gold)'}));
+    svg.appendChild(T(P.l+Math.max(a,nv)*sc+7,y+rh/2+4,cr(nv),'axb'));
+    const hit=el('rect',{x:0,y,width:W,height:rh,fill:'transparent'});tipOn(hit,svg,tip,`<b>${n}</b><br>August ${a?inr(a):'—'}<br>November ${inr(nv)}`);svg.appendChild(hit);});
+})();
+(function(){
+  const R=[['Days 1–14',8000,'7–10','Max Conv, no target'],['Days 15–28',15000,'13–16','tCPA ₹1,150'],['Days 29–42',22000,'18–21','tCPA ₹1,150'],['Day 43+',29000,'21–25','tCPA ₹1,150–1,250']];
+  const W=520,H=240,P={l:52,r:10,t:26,b:30},svg=$('c-s5'),tip=$('t-s5'),max=32000;ygrid(svg,W,H,P,max,4,v=>'₹'+Math.round(v/1000)+'k');
+  const iw=(W-P.l-P.r)/4,bw=iw-26;
+  R.forEach(([l,b,o,bid],i)=>{const h=(H-P.t-P.b)*(b/max),x=P.l+i*iw+13;svg.appendChild(el('rect',{x,y:H-P.b-h,width:bw,height:h,fill:i===3?'var(--gold)':'var(--c1)'}));
+    svg.appendChild(T(x+bw/2,H-P.b-h-7,o+' orders','axb','middle'));svg.appendChild(T(x+bw/2,H-10,l,'ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${l}</b><br>₹${b.toLocaleString('en-IN')}/day<br>${o} orders/day<br>${bid}`);svg.appendChild(hit);});
+})();
+(function(){
+  const R=[['55%',737000],['45%',445000],['40%',299000],['35%',153000],['30%',6600]];
+  const W=520,H=240,P={l:56,r:10,t:26,b:30},svg=$('c-gate'),tip=$('t-gate'),max=800000;ygrid(svg,W,H,P,max,4,cr);
+  const iw=(W-P.l-P.r)/R.length,bw=iw-24;
+  R.forEach(([l,v],i)=>{const h=Math.max(2,(H-P.t-P.b)*(v/max)),x=P.l+i*iw+12;svg.appendChild(el('rect',{x,y:H-P.b-h,width:bw,height:h,fill:i===4?'var(--bad)':i>=3?'var(--c2)':'var(--c3)'}));
+    svg.appendChild(T(x+bw/2,H-P.b-h-7,i===4?'break-even':'+'+cr(v),'axb','middle'));svg.appendChild(T(x+bw/2,H-10,l+' margin','ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>${l} gross margin</b><br>Contribution after ads ${i===4?'≈ ₹0':cr(v)+'/month'}`);svg.appendChild(hit);});
+})();
+(function(){
+  const R=[['14.5% today',57.1,'₹9.21 Cr'],['17%',67.1,'₹10.81 Cr'],['20%',78.9,'₹12.71 Cr'],['25%',98.6,'₹15.89 Cr'],['28%',110.5,'₹17.80 Cr']];
+  const W=660,H=230,P={l:40,r:10,t:22,b:30},svg=$('c-cart'),tip=$('t-cart'),max=120;ygrid(svg,W,H,P,max,4,v=>Math.round(v));
+  const iw=(W-P.l-P.r)/R.length,bw=iw-40;
+  R.forEach(([l,v,rev],i)=>{const h=(H-P.t-P.b)*(v/max),x=P.l+i*iw+20;svg.appendChild(el('rect',{x,y:H-P.b-h,width:bw,height:h,fill:i===0?'var(--ink-3)':v>=98?'var(--gold)':'var(--c1)'}));
+    svg.appendChild(T(x+bw/2,H-P.b-h-7,v+'/day','axb','middle'));svg.appendChild(T(x+bw/2,H-10,l,'ax','middle'));
+    const hit=el('rect',{x:P.l+i*iw,y:P.t,width:iw,height:H-P.t-P.b,fill:'transparent'});tipOn(hit,svg,tip,`<b>Cart→order ${l}</b><br>${v} orders/day<br>Revenue ${rev}/yr`);svg.appendChild(hit);});
+  const y=H-P.b-(H-P.t-P.b)*(100/max);svg.appendChild(el('line',{x1:P.l,x2:W-P.r,y1:y,y2:y,stroke:'var(--gold)','stroke-dasharray':'4 3'}));svg.appendChild(T(P.l+4,y-5,'target 100/day','ax'));
+})();
+
+/* ========== contents, progress, marker, swipe ========== */
+(function(){
+  const secs=[...document.querySelectorAll('section.sec')];
+  $('toclist').innerHTML=secs.map(s=>`<li><a href="#${s.id}"><span class="n">${s.querySelector('.snum').textContent}</span><span class="t">${s.querySelector('h2').textContent}</span></a></li>`).join('');
+  const prog=$('prog'),mk=$('marker'),mn=$('mnum'),mt=$('mtitle');let tick=false;
+  function upd(){const sc=window.scrollY,dh=document.documentElement.scrollHeight-innerHeight;prog.style.width=(dh>0?Math.min(100,sc/dh*100):0)+'%';
+    mk.classList.toggle('on',sc>620);let cur=null;for(const s of secs){if(s.offsetTop-90<=sc)cur=s;else break;}
+    if(cur){mn.textContent=cur.querySelector('.snum').textContent;mt.textContent=cur.querySelector('h2').textContent;}tick=false;}
+  addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(upd);}},{passive:true});upd();
+  function check(){document.querySelectorAll('.chart').forEach(c=>{const h=c.nextElementSibling&&c.nextElementSibling.classList.contains('swipe')?c.nextElementSibling:null;const over=c.scrollWidth>c.clientWidth+4;
+    if(over&&!h){const s=document.createElement('div');s.className='swipe';s.textContent='← swipe to see the full chart →';c.after(s);}else if(!over&&h)h.remove();});}
+  addEventListener('resize',check);setTimeout(check,300);
+})();
+</script>
+</body></html>
